@@ -1,0 +1,44 @@
+{
+ "title": "Scarlet Runner Bean Salad",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 35,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Scarlet Runner",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Toss:",
+   "items": [
+    "4 cups beans, cooked and drained (1 lb dry)",
+    "1 red bell pepper, chopped",
+    "1 green bell pepper, chopped",
+    "2 garlic cloves, minced",
+    "1 tsp fresh Italian oregano",
+    "1 fresh tomato, chopped",
+    "Olive oil and vinegar to taste",
+    "Salt to taste"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

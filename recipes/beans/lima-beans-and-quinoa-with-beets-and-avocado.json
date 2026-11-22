@@ -1,0 +1,54 @@
+{
+ "title": "Lima Beans and Quinoa with Beets and Avocado",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 32,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "lima",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Whisk:",
+   "items": [
+    "2 Tbsp lemon juice",
+    "1 Tbsp cider vinegar",
+    "1 tsp honey",
+    "⅓ cup olive oil",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Add in and toss:",
+   "items": [
+    "5 small beets (roasted in foil 45 min at 400°F, peeled, cooled)",
+    "½ cup quinoa (dry), cooked and drained",
+    "½ lb lima beans (dry), cooked and drained",
+    "1 avocado, in ½-inch chunks",
+    "½ small sweet onion, thinly sliced"
+   ]
+  },
+  {
+   "text": "Serve at room temperature."
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

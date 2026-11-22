@@ -1,0 +1,68 @@
+{
+ "title": "Tuscan White Beans in Tomato Sauce",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 22,
+ "source": {
+  "text": "Food & Wine",
+  "url": "https://www.foodandwine.com/recipes/white-beans-in-tomato-sauce"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "Italian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "3 cups water",
+    "2 garlic cloves, whole",
+    "1 sprig sage, whole",
+    "1 bay leaf",
+    "2 Tbsp olive oil"
+   ]
+  },
+  {
+   "text": "Drain, set beans aside. Separately:"
+  },
+  {
+   "action": "Saute:",
+   "items": [
+    "¼ cup olive oil",
+    "½ tsp chopped sage",
+    "1 garlic clove, minced"
+   ]
+  },
+  {
+   "action": "After 1 min, add in, bring to simmer:",
+   "items": [
+    "1 cup tomato sauce",
+    "1 bouillon cube"
+   ]
+  },
+  {
+   "action": "Add in, cook 5 min until thick:",
+   "items": [
+    "Beans",
+    "Salt and pepper"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

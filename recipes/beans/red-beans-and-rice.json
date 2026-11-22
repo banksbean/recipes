@@ -1,0 +1,57 @@
+{
+ "title": "Red Beans and Rice (without rice)",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 4,
+ "beans": "red",
+ "tags": {
+  "cuisine": [
+   "Cajun & Creole"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water",
+    "2 to 3 Tbsp Creole seasoning (below)",
+    "2 Tbsp tomato paste",
+    "2 tsp salt"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Rice, I guess, if you want"
+   ]
+  },
+  {
+   "action": "Creole Seasoning (bulk batch, ~1 cup):",
+   "items": [
+    "2 Tbsp onion powder",
+    "2 Tbsp garlic powder",
+    "2 Tbsp oregano",
+    "2 Tbsp basil",
+    "1 Tbsp thyme",
+    "1 Tbsp black pepper",
+    "1 Tbsp cayenne",
+    "1 Tbsp paprika (or a blend of chili powders: ancho, chipotle, etc.)"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

@@ -1,0 +1,88 @@
+{
+ "title": "Masoor Daal (Red Lentils)",
+ "collection": "raza",
+ "section": "Daal (Lentils)",
+ "sort": 18,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "The quickest and most common daal: salmon-colored lentils that cook to yellow, finished with a smoky garlic and chili tarka. Goes with almost anything.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Rinse in a small pot until the water runs almost clear (removes starch that makes grains stick); drain well:",
+   "items": [
+    "1½ cups masoor daal (red lentils, 350 ml)"
+   ]
+  },
+  {
+   "action": "Add and heat on high; stir once as it starts to boil, then skim off the white foam:",
+   "items": [
+    "3½ cups water (800 ml)"
+   ]
+  },
+  {
+   "action": "Reduce to medium-low (3/10) to a simmer; stir in:",
+   "items": [
+    "1 tsp cayenne",
+    "1 tsp turmeric",
+    "2 tsp salt"
+   ]
+  },
+  {
+   "action": "Cover; cook 20 min, stirring and scraping every 5 min.",
+   "items": []
+  },
+  {
+   "action": "Check: porridge-like (add water if too thick) and grains mash easily against the pot. If not, cook 5 min more and repeat. Turn off heat; keep covered.",
+   "items": []
+  },
+  {
+   "action": "Tarka: heat in a small frying pan over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and fry, stirring, until the garlic is light brown; move fast, it burns quickly after:",
+   "items": [
+    "6 medium garlic cloves, thinly sliced (about 2 mm / ¹⁄₁₆ in)",
+    "6 dried red chilies",
+    "1 tsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Stir the daal once; pour in the tarka slowly (it splatters), scraping the pan. Stir until mixed. Adjust salt.",
+   "items": []
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Almost any meat, fish, vegetable, rice, or bread",
+    "The chilies are hot; eat them or set aside"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

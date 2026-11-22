@@ -1,0 +1,55 @@
+{
+ "title": "Tuscan-Style Baked Beans",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 23,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Marcella, Alubia Blanca, or plain white",
+ "tags": {
+  "cuisine": [
+   "Italian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Bring to boil in Dutch oven:",
+   "items": [
+    "1 lb beans",
+    "5 to 6 fresh sage leaves",
+    "4 to 5 garlic cloves, peeled and smashed",
+    "4 Tbsp olive oil",
+    "Salt and fresh ground black pepper"
+   ]
+  },
+  {
+   "action": "Cover, bake at 350°F (~3 hrs):",
+   "items": [
+    "Add hot water to keep beans covered",
+    "Salt when beans are soft"
+   ]
+  },
+  {
+   "action": "Remove from oven:",
+   "items": [
+    "Discard sage and garlic",
+    "Serve with fresh ground black pepper"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

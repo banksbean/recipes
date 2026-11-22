@@ -1,0 +1,93 @@
+{
+ "title": "Caldo de Camarones (Shrimp Soup)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 3,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Caldo de camarones.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Seafood"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Toast on a comal, one at a time, without burning; soak in hot water until soft:",
+   "items": [
+    "1 costeño chile, cleaned",
+    "3 guajillo chiles, cleaned",
+    "2 cups hot water"
+   ]
+  },
+  {
+   "action": "Simmer 5 min over medium for a quick stock:",
+   "items": [
+    "Shells from 24 shrimp",
+    "2 cups water"
+   ]
+  },
+  {
+   "action": "Blend until very smooth:",
+   "items": [
+    "Soaked chiles",
+    "Shrimp shells and their stock",
+    "1 clove",
+    "1 allspice berry",
+    "2 garlic cloves"
+   ]
+  },
+  {
+   "action": "Saute until translucent:",
+   "items": [
+    "1 Tbsp vegetable oil",
+    "½ onion, finely chopped"
+   ]
+  },
+  {
+   "action": "Add and cook 5 min, stirring often:",
+   "items": [
+    "3 tomatoes, finely chopped"
+   ]
+  },
+  {
+   "action": "Strain in and simmer 10 min:",
+   "items": [
+    "Chile-shrimp purée",
+    "1 tsp dried oregano",
+    "3 cups water"
+   ]
+  },
+  {
+   "action": "Add and cook 2 min:",
+   "items": [
+    "24 medium shrimp, shelled"
+   ]
+  },
+  {
+   "action": "Season:",
+   "items": [
+    "Salt to taste"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source lists 3 cups water but never places it in the method; added with the purée for a brothy soup"
+ ]
+}

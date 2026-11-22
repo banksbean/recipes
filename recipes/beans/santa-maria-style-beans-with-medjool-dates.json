@@ -1,0 +1,62 @@
+{
+ "title": "Santa Maria-Style Beans with Medjool Dates",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 17,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Santa Maria pinquito",
+ "tags": {
+  "cuisine": [
+   "Southwestern"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Pork",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "1 lb bacon, diced",
+    "1 large Anaheim chile, diced (ideally charred, skin removed)",
+    "1 white onion, minced",
+    "4 garlic cloves, minced"
+   ]
+  },
+  {
+   "action": "Add in, cook until beans are tender:",
+   "items": [
+    "1 lb beans (2 cups dry)",
+    "2 cups water",
+    "1 cup Mexican-style lager",
+    "½ cup brewed coffee",
+    "2 cups tomato purée",
+    "2 bay leaves",
+    "1 tsp pure chile powder (e.g. Rancho Gordo New Mexican Red)",
+    "1 tsp ground cumin",
+    "1 tsp mustard powder",
+    "5 Medjool dates, pitted and chopped",
+    "Kosher salt and pepper"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Mexican crema (optional)"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

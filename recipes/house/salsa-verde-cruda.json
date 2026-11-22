@@ -1,0 +1,54 @@
+{
+ "title": "Salsa Verde Cruda (Raw Green Salsa)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 5,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "1½ cups",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Salsa verde cruda.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend until very smooth:",
+   "items": [
+    "12 tomatillos, husked and halved (350 g)",
+    "1 serrano chile, stemmed",
+    "1 garlic clove",
+    "¼ small onion",
+    "¼ cup cilantro"
+   ]
+  },
+  {
+   "action": "Season:",
+   "items": [
+    "Salt to taste"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Anything fried"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

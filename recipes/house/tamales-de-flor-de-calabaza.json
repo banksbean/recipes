@@ -1,0 +1,80 @@
+{
+ "title": "Tamales de Flor de Calabaza (Squash Blossom Tamales)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 10,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "18 tamales",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Tamales de flor de calabaza.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Cheese"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Soak in warm water:",
+   "items": [
+    "18 corn husks (totomoxtle)"
+   ]
+  },
+  {
+   "action": "Beat on high until pale and fluffy:",
+   "items": [
+    "250 g lard (about 1 cup + 2 Tbsp)"
+   ]
+  },
+  {
+   "action": "Add and beat until homogeneous:",
+   "items": [
+    "1 kg masa for tamales (2.2 lb)",
+    "½ cup chicken broth",
+    "1 Tbsp baking powder",
+    "1 Tbsp salt"
+   ]
+  },
+  {
+   "action": "Add alternately; beat until incorporated:",
+   "items": [
+    "2 cups fresh cheese, crumbled",
+    "3 cups squash blossoms, chopped",
+    "1 cup epazote leaves, chopped",
+    "1 cup zucchini, small dice",
+    "½ cup corn kernels",
+    "2 poblano chiles, roasted, seeded, chopped"
+   ]
+  },
+  {
+   "action": "Fill and fold:",
+   "items": [
+    "2 Tbsp dough in the center of each husk",
+    "Overlap the sides; fold the tip under"
+   ]
+  },
+  {
+   "action": "Steam upright over boiling water, covered with a towel and lid, on high about 1 hr, until dough releases from the husk:",
+   "items": [
+    "2 coins in the steamer base rattle while water remains; add water when they go quiet"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source method says \"butter\"; ingredient list says lard"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "title": "Lemongrass and Coconut Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 15,
+ "source": {
+  "text": "Nom Nom Paleo",
+  "url": "https://nomnompaleo.com/post/137755902728/pressure-cooker-lemongrass-coconut-chicken"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "Southeast Asian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend:",
+   "items": [
+    "1 thick stalk lemongrass, outer layers and rough bottom removed, bottom 5 inches only",
+    "4 garlic cloves, crushed",
+    "1 thumb-size piece ginger, peeled, roughly chopped",
+    "2 Tbsp fish sauce",
+    "3 Tbsp coconut aminos",
+    "1 tsp five spice powder",
+    "1 cup full-fat coconut milk (+¼ cup optional)"
+   ]
+  },
+  {
+   "action": "Saute:",
+   "items": [
+    "1 Tbsp coconut oil or butter",
+    "1 large onion, thinly sliced"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans, soaked, rinsed, drained",
+    "2 cups chicken broth"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

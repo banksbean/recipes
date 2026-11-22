@@ -1,0 +1,81 @@
+{
+ "title": "Fish and Shrimp Stew with Alubia Blanca",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 26,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Alubia Blanca (or other white), cooked",
+ "tags": {
+  "cuisine": [
+   "Spanish"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Seafood",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute, low heat, 20 min (do not brown):",
+   "items": [
+    "¼ cup olive oil",
+    "2 yellow onions, thinly sliced into half moons",
+    "2 celery stalks, thinly sliced",
+    "Pinch of salt"
+   ]
+  },
+  {
+   "action": "Add in, cook 1 min:",
+   "items": [
+    "2 garlic cloves, peeled and smashed",
+    "1 tsp New Mexico red chile powder"
+   ]
+  },
+  {
+   "action": "Add in, simmer 30 to 40 min:",
+   "items": [
+    "1 large can (28 oz) whole peeled tomatoes, crushed by hand"
+   ]
+  },
+  {
+   "action": "Add in, bring back to simmer:",
+   "items": [
+    "2 cups cooked beans",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Add in, cook 2 to 5 min until done:",
+   "items": [
+    "1 lb halibut, cubed",
+    "1 lb shrimp, peeled and deveined"
+   ]
+  },
+  {
+   "action": "Off heat, stir in:",
+   "items": [
+    "1 bunch flat-leaf parsley, roughly chopped"
+   ]
+  },
+  {
+   "action": "Serve over and with:",
+   "items": [
+    "4 to 6 slices stale or toasted bread",
+    "Lemon wedges"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

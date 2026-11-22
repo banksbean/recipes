@@ -1,0 +1,44 @@
+{
+ "title": "Pickled Red Onions",
+ "collection": "house",
+ "section": "Salsas & Condiments",
+ "sort": 17,
+ "source": {
+  "text": "Ryan's own"
+ },
+ "added": "2026-11-15",
+ "origin": "Migrated from Recipes - Seis de Mayo.docx (Seis de Mayo party, 2018)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Combine in a pot, with vinegar to cover the onions:",
+   "items": [
+    "Red onions, sliced",
+    "Red wine vinegar",
+    "Black pepper",
+    "Butter"
+   ]
+  },
+  {
+   "action": "Boil, then reduce until sloppy. Strain if desired.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

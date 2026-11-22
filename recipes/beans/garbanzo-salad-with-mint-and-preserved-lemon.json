@@ -1,0 +1,48 @@
+{
+ "title": "Garbanzo Salad with Mint and Preserved Lemon",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 34,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "garbanzo",
+ "tags": {
+  "cuisine": [
+   "Mediterranean"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Whisk:",
+   "items": [
+    "1 garlic clove, minced",
+    "1 Tbsp preserved lemon (or zest of 1 lemon plus some juice)",
+    "¼ cup olive oil",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Add in and toss:",
+   "items": [
+    "2 to 4 carrots, grated",
+    "2 cups garbanzos, cooked and drained",
+    "¼ cup fresh mint"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

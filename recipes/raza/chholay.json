@@ -1,0 +1,117 @@
+{
+ "title": "Chholay (Chickpea Curry)",
+ "collection": "raza",
+ "section": "Vegetables",
+ "sort": 16,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "From the author's friend Ruchira Paul, simplified. Black tea and dried pomegranate deepen the sauce, and mashing some of the chickpeas thickens it. Best with fresh bread; rice also works.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Heat in a large pot on medium-high (7/10), 3 min:",
+   "items": [
+    "¾ cup oil (180 ml)"
+   ]
+  },
+  {
+   "action": "Add and fry 1 min:",
+   "items": [
+    "1 tsp cumin seeds",
+    "3 black cardamoms"
+   ]
+  },
+  {
+   "action": "Add and fry 2 min:",
+   "items": [
+    "2 Tbsp garlic paste",
+    "2 Tbsp ginger paste",
+    "3 green chilies (or 1 jalapeño), finely chopped (optional)"
+   ]
+  },
+  {
+   "action": "Add and fry 5 min, stirring often:",
+   "items": [
+    "2 medium onions (1 lb / 450 g total), chopped"
+   ]
+  },
+  {
+   "action": "Add and fry 2 min:",
+   "items": [
+    "1 tsp cayenne",
+    "2 tsp paprika (optional)",
+    "1 tsp turmeric",
+    "1 Tbsp ground cumin",
+    "2 Tbsp ground coriander",
+    "1 tsp ground black pepper",
+    "1½ tsp salt (2 tsp if the stock is unsalted)"
+   ]
+  },
+  {
+   "action": "Mix in:",
+   "items": [
+    "3 medium tomatoes, chopped (or 14 oz / 400 g can)"
+   ]
+  },
+  {
+   "action": "Add and cook 3 min:",
+   "items": [
+    "3 cans chickpeas (14 oz / 400 g each), drained"
+   ]
+  },
+  {
+   "action": "Mix in and cook 2 min:",
+   "items": [
+    "Juice of 1 lime",
+    "1 tsp garam masala",
+    "4 Tbsp dried pomegranate seeds (or 2 Tbsp pomegranate powder)"
+   ]
+  },
+  {
+   "action": "Add and bring to a simmer; cover and simmer on medium-low (3/10) 15 min:",
+   "items": [
+    "2 cups beef stock (480 ml; chicken or vegetable ok)",
+    "1 cup brewed medium-strength unflavored black tea (240 ml; Assam, Ceylon, or English Breakfast)"
+   ]
+  },
+  {
+   "action": "Mash about a quarter of the chickpeas against the pot with a spoon; stir.",
+   "items": []
+  },
+  {
+   "action": "Cover, turn off heat, and rest 5 min. Adjust salt and lime.",
+   "items": []
+  },
+  {
+   "action": "Garnish (optional):",
+   "items": [
+    "3 green chilies, halved lengthwise (or 1 jalapeño, in rings)"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source gives can size as 14 fl oz (400 ml); US cans are labeled by weight, about 15 oz"
+ ]
+}

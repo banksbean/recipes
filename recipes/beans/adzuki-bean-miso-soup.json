@@ -1,0 +1,60 @@
+{
+ "title": "Adzuki Bean Miso Soup",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 12,
+ "source": {
+  "text": "Clean Eating",
+  "url": "https://www.cleaneatingmag.com/recipes/adzuki-bean-vegetable-miso-soup/"
+ },
+ "beans": "adzuki",
+ "tags": {
+  "cuisine": [
+   "Japanese"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "2 Tbsp coconut oil",
+    "3 garlic cloves, finely chopped"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "3 cups water",
+    "2 Tbsp miso paste",
+    "½ tsp red pepper flakes",
+    "½ tsp ginger powder",
+    "2 Tbsp soy sauce",
+    "2 Tbsp rice wine vinegar",
+    "2 bouillon cubes"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Cilantro"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

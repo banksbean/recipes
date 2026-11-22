@@ -1,0 +1,61 @@
+{
+ "title": "Imlee aur Podinay ki Chutney (Tamarind and Mint Chutney)",
+ "collection": "raza",
+ "section": "Chutneys & Accompaniments",
+ "sort": 28,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A heavier-tasting chutney than the coriander one; goes with everything.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend, adding a little water if needed (push down with a spoon only while the blender is off):",
+   "items": [
+    "½ cup loosely packed mint leaves, no stems",
+    "1 Tbsp tamarind paste",
+    "1 medium tomato (5 oz / 140 g)",
+    "3 green chilies (or 1 jalapeño), stemmed",
+    "3 medium garlic cloves, peeled",
+    "1 small onion (4 oz / 110 g), quartered",
+    "2 tsp crushed red pepper",
+    "1 tsp cumin seeds",
+    "½ tsp salt",
+    "1 tsp sugar",
+    "Juice of 1 lime"
+   ]
+  },
+  {
+   "action": "Taste a tiny bit; adjust salt, sugar, and lime.",
+   "items": []
+  },
+  {
+   "action": "Store refrigerated up to a week:",
+   "items": [
+    "If it dries out, stir in a little water"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Yield not given in source"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "title": "Cochinita Pibil",
+ "collection": "house",
+ "section": "Mains",
+ "sort": 12,
+ "source": {
+  "text": "Rick Bayless",
+  "url": "http://www.rickbayless.com/recipe/cochinita-pibil/"
+ },
+ "makes": "12 to 15 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Recipes - Seis de Mayo.docx (Seis de Mayo party, 2018)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Pork"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Grind fine in a spice grinder:",
+   "items": [
+    "1½ Tbsp dried Mexican oregano",
+    "1½ Tbsp black peppercorns",
+    "1¼ tsp cumin seeds",
+    "½ tsp whole cloves",
+    "1½ Tbsp canela (about 6 in of ½ in stick)"
+   ]
+  },
+  {
+   "action": "Blend into a smooth marinade:",
+   "items": [
+    "Ground spices",
+    "5 Tbsp achiote paste (about 2 oz)",
+    "14 garlic cloves, roughly chopped",
+    "1 cup fresh lime juice",
+    "½ cup fresh orange juice",
+    "Salt"
+   ]
+  },
+  {
+   "action": "Coat and marinate in the fridge, overnight:",
+   "items": [
+    "8 to 12 lb bone-in pork shoulder",
+    "Marinade"
+   ]
+  },
+  {
+   "action": "Roast covered (banana leaves or loose foil) at 325 °F until fall-apart tender, about 4 to 6 hr:",
+   "items": [
+    "Marinated pork"
+   ]
+  },
+  {
+   "action": "Shred and serve with:",
+   "items": [
+    "Pickled Red Onions (see Salsas & Condiments)",
+    "Corn tortillas"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "The 2018 note listed ingredients only. Method summarized during archiving: Bayless's crowd version is grilled; the 325 °F oven method and 4 to 6 hr time come from adaptations of it and are an estimate for this size",
+  "Salt amount not in the 2018 note"
+ ]
+}

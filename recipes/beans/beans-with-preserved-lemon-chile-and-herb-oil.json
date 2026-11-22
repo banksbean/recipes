@@ -1,0 +1,54 @@
+{
+ "title": "Beans with Preserved Lemon, Chile, and Herb Oil",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 11,
+ "source": {
+  "text": "Yotam Ottolenghi",
+  "url": "https://amp.theguardian.com/food/2020/oct/17/from-dal-to-butter-beans-yotam-ottolenghi-legumes-recipes"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "Middle Eastern"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "175 ml olive oil",
+    "5 garlic cloves, finely chopped",
+    "2 mild red chiles, finely chopped, seeds and all (30 g)",
+    "1 Tbsp coriander seeds, finely crushed",
+    "3 preserved lemons (80 g), insides discarded, skin finely sliced (45 g)",
+    "2 Tbsp thyme",
+    "2 Tbsp rosemary",
+    "1 Tbsp tomato paste"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "1½ cups water",
+    "1 can (14 oz) crushed tomatoes"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

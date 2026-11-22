@@ -1,0 +1,98 @@
+{
+ "title": "Chicken Karahi (Spicy Chicken with Tomato and Ginger)",
+ "collection": "raza",
+ "section": "Chicken",
+ "sort": 7,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A street-stall dish usually cooked in big woks over fierce heat and eaten on the spot with naan. This frying-pan version is very gingery. The author eats it with bread and maybe raita, never rice, and with more chilies than listed.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Poultry"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Heat in a large frying pan over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add half of each; fry 2 min, until the ginger just darkens and smells fried:",
+   "items": [
+    "6 cu in ginger (2 × 3 × 15 cm), peeled, in ⅛ in (3 mm) dice",
+    "6 green chilies (or 2 jalapeños), in thin rings, with seeds"
+   ]
+  },
+  {
+   "action": "Add and fry 5 min, stirring, until no pink remains and the released water is mostly gone:",
+   "items": [
+    "1¾ lb boneless chicken thighs (800 g; breasts ok), in ⅓ in (1 cm) cubes"
+   ]
+  },
+  {
+   "action": "Add and fry 2 min, stirring (all steps so far on max heat):",
+   "items": [
+    "1 tsp cayenne",
+    "1 tsp paprika (optional)",
+    "1 tsp turmeric",
+    "2 tsp salt"
+   ]
+  },
+  {
+   "action": "Mix in; reduce to medium-high (7/10) and cook 15 min, stirring occasionally, until the oil separates and floats:",
+   "items": [
+    "3 medium tomatoes, chopped (or 14 oz / 400 g can)"
+   ]
+  },
+  {
+   "action": "Stir in:",
+   "items": [
+    "Remaining ginger and chilies",
+    "1 tsp ground black pepper",
+    "1 tsp garam masala"
+   ]
+  },
+  {
+   "action": "Add; cover and cook on medium-low (3/10) 15 min:",
+   "items": [
+    "½ cup water (120 ml)"
+   ]
+  },
+  {
+   "action": "Stir in; turn off heat, cover, and rest 5 min:",
+   "items": [
+    "Handful chopped cilantro"
+   ]
+  },
+  {
+   "action": "Adjust salt.",
+   "items": []
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Good bread, and maybe raita"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

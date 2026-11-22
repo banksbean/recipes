@@ -1,0 +1,28 @@
+{
+ "title": "Pro-Tips",
+ "collection": "guides",
+ "section": "Bean Basics",
+ "sort": 3,
+ "tags": {
+  "cuisine": [],
+  "course": [
+   "Guide"
+  ],
+  "protein": [],
+  "season": []
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "",
+   "items": [
+    "Soak in salt water: faster cook, more uniform beans (slightly grainy texture)",
+    "Salt at the end: creamiest texture (slower, less even cook)",
+    "Add acids (lime, tomato, vinegar) after beans are cooked"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

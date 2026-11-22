@@ -1,0 +1,97 @@
+{
+ "title": "Original Texas-Style Chili (Bowl of Red)",
+ "collection": "house",
+ "section": "Soups & Stews",
+ "sort": 14,
+ "source": {
+  "text": "Frank X. Tolbert, A Bowl of Red"
+ },
+ "makes": "6 to 8 servings",
+ "added": "2026-11-15",
+ "origin": "Uploaded as ORIGINAL TEXAS-STYLE CHILI.docx",
+ "tags": {
+  "cuisine": [
+   "Tex-Mex"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beef"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Boil 5 min; cool, stem, seed, and chop. Reserve the cooking water:",
+   "items": [
+    "3 to 6 ancho chiles (or 3 to 6 Tbsp chili powder or ground chile)"
+   ]
+  },
+  {
+   "action": "Render over medium until the fat runs; discard the solids:",
+   "items": [
+    "2 oz beef suet (or vegetable oil, for less grease)"
+   ]
+  },
+  {
+   "action": "Sear in the fat, in 2 or 3 batches:",
+   "items": [
+    "3 lb lean beef, preferably stewing meat"
+   ]
+  },
+  {
+   "action": "Combine in a large pot, with chile water to about 2 in above the meat; boil, then simmer 30 min:",
+   "items": [
+    "Seared beef",
+    "Chopped anchos",
+    "Reserved chile water, topped up with water as needed"
+   ]
+  },
+  {
+   "action": "Add, cover, and simmer 45 min, stirring only occasionally:",
+   "items": [
+    "1 tsp oregano",
+    "1 Tbsp cumin seed, crushed",
+    "1 Tbsp salt",
+    "1 Tbsp cayenne",
+    "1 Tbsp Tabasco",
+    "2 to 4 garlic cloves, minced"
+   ]
+  },
+  {
+   "action": "Skim the grease; taste and adjust seasoning. If not hot enough, add:",
+   "items": [
+    "2 to 4 ancho chiles, stemmed and seeded, left whole"
+   ]
+  },
+  {
+   "action": "Stir in to thicken; simmer 30 min more, until the meat is tender:",
+   "items": [
+    "2 Tbsp masa harina or cornmeal"
+   ]
+  },
+  {
+   "action": "Options! Wick Fowler's prize-winning version:",
+   "items": [
+    "Skip the suet; sear in oil",
+    "Add 15 oz tomato sauce",
+    "Refrigerate overnight; skim the fat the next day",
+    "Add the masa on reheating, only if too thin"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Servings not in source; estimated from 3 lb beef",
+  "Source does not say how to cut the beef; 1 in cubes or coarse chili grind are typical for this style",
+  "Source does not say when to add chili powder if used instead of pods; adding it with the other seasonings is the usual approach",
+  "Masa harina can lump if added dry; whisking it with a little of the hot liquid first avoids that (not in source)",
+  "Source does not say when Fowler added the tomato sauce"
+ ]
+}

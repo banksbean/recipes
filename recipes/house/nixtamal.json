@@ -1,0 +1,63 @@
+{
+ "title": "Nixtamal",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 7,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "About 1 kg corn, for masa",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Nixtamal.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Basic"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Heat in a clay, stainless, or pewter pot:",
+   "items": [
+    "1½ L water (about 6 cups)"
+   ]
+  },
+  {
+   "action": "When hot, add; boil 3 min, cover, remove from heat, rest 30 min:",
+   "items": [
+    "2 Tbsp cal (food-grade slaked lime), dissolved in ½ cup water",
+    "1 kg dried field corn (2.2 lb), cleaned"
+   ]
+  },
+  {
+   "action": "Drain off the cooking liquid (nejayote); rest overnight.",
+   "items": []
+  },
+  {
+   "action": "Next day, rinse, drain, and grind with a little water:",
+   "items": [
+    {
+     "text": "Metate, hand mill, meat grinder, or a public mill",
+     "sub": [
+      "Fine: tortillas, thickening moles, atole",
+      "Coarse: tamales"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source says \"lime (calcium oxide)\". Nixtamal uses cal, which is calcium hydroxide (slaked lime); calcium oxide is quicklime and is caustic"
+ ]
+}

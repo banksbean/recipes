@@ -1,0 +1,65 @@
+{
+ "title": "Italian Red Bean Chili",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 13,
+ "source": {
+  "text": "Rachael Ray",
+  "url": "https://www.rachaelrayshow.com/recipes/italian-chili-recipe-with-red-beans-from-rachael-ray"
+ },
+ "beans": "red",
+ "tags": {
+  "cuisine": [
+   "Italian"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "2 Tbsp olive oil",
+    "1 large onion, finely chopped",
+    "Salt and pepper",
+    "1 jalapeño or red finger chile, chopped",
+    "4 garlic cloves, chopped",
+    "3 oz 'nduja"
+   ]
+  },
+  {
+   "action": "Simmer:",
+   "items": [
+    "1 tsp ground cumin",
+    "1 tsp dried oregano",
+    "1 tsp smoked paprika",
+    "1 tsp ancho or Aleppo powder",
+    "1 Tbsp Worcestershire",
+    "2 roasted red peppers, chopped",
+    "1 can (14 oz) crushed or diced tomatoes",
+    "¾ cup passata (or 6 oz can tomato sauce)",
+    "2 cups beef stock"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

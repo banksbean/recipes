@@ -1,0 +1,67 @@
+{
+ "title": "Salsa de Jitomate Asado (Roasted Tomato Salsa)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 4,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "¾ cup",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Salsa de jitomate asado.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Roast on a comal until soft:",
+   "items": [
+    "3 Roma tomatoes"
+   ]
+  },
+  {
+   "action": "Blend until very smooth:",
+   "items": [
+    "Roasted tomatoes",
+    "1 garlic clove",
+    "½ tsp coarse salt",
+    "1 chipotle in adobo"
+   ]
+  },
+  {
+   "action": "Molcajete version:",
+   "items": [
+    "Grind garlic with salt",
+    "Add chipotle, grind",
+    "Add tomatoes, grind to desired texture"
+   ]
+  },
+  {
+   "action": "Options! Swap or add:",
+   "items": [
+    "Other chiles, fresh green or dried",
+    "Roasted avocado leaves",
+    "Cumin seeds",
+    "Onion",
+    "Cilantro",
+    "Avocado, cubed",
+    "Agave worms"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

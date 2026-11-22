@@ -1,0 +1,53 @@
+{
+ "title": "Red Sangria",
+ "collection": "house",
+ "section": "Drinks",
+ "sort": 19,
+ "source": {
+  "text": "Minimalist Baker",
+  "url": "https://minimalistbaker.com/easy-traditional-red-sangria/"
+ },
+ "makes": "4 glasses",
+ "added": "2026-11-15",
+ "origin": "Migrated from Recipes - Seis de Mayo.docx (Seis de Mayo party, 2018)",
+ "tags": {
+  "cuisine": [
+   "Spanish"
+  ],
+  "course": [
+   "Drink"
+  ],
+  "protein": [],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Muddle in a pitcher:",
+   "items": [
+    "½ apple, cored, skin on, chopped small",
+    "½ orange, rind on, chopped small, seeds removed (plus slices for garnish)",
+    "3 to 4 Tbsp brown sugar (41 to 55 g) (or 3 Tbsp cane sugar)",
+    "¾ cup orange juice (180 ml), plus more to taste",
+    "⅓ cup brandy (80 ml), plus more to taste"
+   ]
+  },
+  {
+   "action": "Add and stir:",
+   "items": [
+    "1 bottle (750 ml) dry Spanish red wine"
+   ]
+  },
+  {
+   "action": "Chill; serve over ice with orange slices.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "The 2018 note listed ingredients only; method summarized from the source during archiving"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "title": "Masalaydar Jheenga (Spicy Shrimp)",
+ "collection": "raza",
+ "section": "Seafood",
+ "sort": 12,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Sweet, hot, and sour, with a thick rather than soupy sauce. The author's preferred pairing is Simple Pulao.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Seafood"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Heat in a large pot over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and fry 1 min:",
+   "items": [
+    "1 tsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Add and fry 5 min, stirring often:",
+   "items": [
+    "2 medium onions (1 lb / 450 g total), finely chopped"
+   ]
+  },
+  {
+   "action": "Add and fry 2 min:",
+   "items": [
+    "6 medium garlic cloves, finely chopped",
+    "3 green chilies (or 1 jalapeño), finely chopped"
+   ]
+  },
+  {
+   "action": "Add and fry 2 min, stirring often:",
+   "items": [
+    "1 tsp cayenne",
+    "1 tsp turmeric",
+    "1 tsp ground cumin",
+    "1 Tbsp ground coriander"
+   ]
+  },
+  {
+   "action": "Add and fry 3 min, stirring often:",
+   "items": [
+    "3 medium tomatoes, chopped (or 14 oz / 400 g can)"
+   ]
+  },
+  {
+   "action": "Reduce to medium-low (3/10); stir, cover, and cook 10 min undisturbed.",
+   "items": []
+  },
+  {
+   "action": "Mix in; raise to medium (5/10) and return to a boil, stirring occasionally:",
+   "items": [
+    "1 tsp garam masala",
+    "2 tsp sugar",
+    "2 tsp salt",
+    "1 Tbsp tamarind paste dissolved in ½ cup warm water (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and cook, stirring often, exactly 4 min (6 min for jumbo); turn off heat and move the pot to a cool burner:",
+   "items": [
+    "1¾ lb fresh shrimp (800 g), peeled and deveined; not frozen"
+   ]
+  },
+  {
+   "action": "Stir in (optional):",
+   "items": [
+    "1 cup loosely packed cilantro, chopped"
+   ]
+  },
+  {
+   "action": "Adjust salt and sugar.",
+   "items": []
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Simple Pulao"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

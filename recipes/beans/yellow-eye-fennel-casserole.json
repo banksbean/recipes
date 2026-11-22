@@ -1,0 +1,79 @@
+{
+ "title": "Yellow Eye & Fennel Casserole",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 24,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Yellow Eye",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute, medium-high, until soft:",
+   "items": [
+    "6 Tbsp olive oil",
+    "½ yellow onion, chopped",
+    "2 large fennel bulbs, roughly chopped",
+    "4 garlic cloves, finely chopped",
+    "2 bay leaves",
+    "5 to 6 stems fresh thyme"
+   ]
+  },
+  {
+   "action": "Deglaze:",
+   "items": [
+    "½ cup white wine",
+    "1 cup vegetable stock"
+   ]
+  },
+  {
+   "action": "Stir in:",
+   "items": [
+    "1 lb beans, cooked and drained",
+    "Zest and juice of 1 lemon",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "text": "Transfer to a wide baking dish."
+  },
+  {
+   "action": "Topping (small pan, low heat):",
+   "items": [
+    "2 Tbsp butter",
+    "½ cup breadcrumbs",
+    "½ cup parmesan",
+    "½ cup fresh basil, minced"
+   ]
+  },
+  {
+   "action": "Bake at 400°F:",
+   "items": [
+    "Add topping",
+    "40 min covered with foil",
+    "Uncover, 15 min until golden brown",
+    "Garnish with fresh basil"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

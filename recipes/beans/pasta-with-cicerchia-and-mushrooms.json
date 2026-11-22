@@ -1,0 +1,76 @@
+{
+ "title": "Pasta with Cicerchia and Mushrooms",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 28,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "cicerchia or chickpeas",
+ "tags": {
+  "cuisine": [
+   "Italian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Simmer:",
+   "items": [
+    "1 lb beans, soaked, drained, rinsed",
+    "2 bay leaves",
+    "Water to cover by a few inches",
+    "[Boil, then simmer ~1 hr until tender]",
+    "[Drain, reserve 1 cup bean water]"
+   ]
+  },
+  {
+   "action": "Boil:",
+   "items": [
+    "1 Tbsp salt",
+    "1 lb orecchiette",
+    "[~10 min until al dente]"
+   ]
+  },
+  {
+   "action": "Saute:",
+   "items": [
+    "¼ cup olive oil",
+    "1 lb oyster mushrooms, stemmed, cut into 1-inch pieces",
+    "Salt and pepper to taste",
+    "[~7 min, set aside for topping]"
+   ]
+  },
+  {
+   "action": "Saute:",
+   "items": [
+    "⅓ cup olive oil",
+    "3 garlic cloves, peeled [brown ~5 min, then remove]",
+    "Drained beans [~3 min]",
+    "Pasta",
+    "1 cup reserved bean water",
+    "Salt to taste",
+    "[~5 min until sauce thickens]"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Mushrooms on top"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

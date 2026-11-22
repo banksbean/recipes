@@ -1,0 +1,60 @@
+{
+ "title": "Chili Sin Carne",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 16,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "any",
+ "tags": {
+  "cuisine": [
+   "Southwestern"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute (~5 min, stir constantly):",
+   "items": [
+    "4 Tbsp olive oil",
+    "⅓ cup chile powder"
+   ]
+  },
+  {
+   "action": "Add in (~3 min, until a dense paste):",
+   "items": [
+    "1 Tbsp cumin seeds, freshly ground",
+    "2 whole allspice, freshly ground",
+    "5 cloves, freshly ground",
+    "1 Tbsp Mexican oregano",
+    "1 tsp paprika",
+    "1 Tbsp porcini powder"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "2 cups vegetable broth",
+    "1 tsp salt",
+    "1 lb beans (2 cups dry), soaked; add 2 cups water if not soaked",
+    "1 lb ground meat (optional)"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

@@ -1,0 +1,51 @@
+{
+ "title": "Instant Pot",
+ "collection": "guides",
+ "section": "Bean Basics",
+ "sort": 1,
+ "tags": {
+  "cuisine": [],
+  "course": [
+   "Guide"
+  ],
+  "protein": [],
+  "season": []
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pre-soaked beans:",
+   "items": [
+    "Soak in enough water to stay submerged the entire time, at least 12 hours",
+    {
+     "text": "Cook with at least 1:1 water to beans by volume",
+     "sub": [
+      "2 cups dry beans → 2 cups water"
+     ]
+    },
+    {
+     "text": "Pressure cook 15 to 30 min, turn off Keep Warm, release naturally",
+     "sub": [
+      "Small beans take less time, big beans more",
+      "Acidic ingredients (e.g. tomatoes) can increase cook time"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Dry beans (not soaked):",
+   "items": [
+    {
+     "text": "Cook with at least 2:1 water to beans by volume",
+     "sub": [
+      "2 cups dry beans → 4 cups water"
+     ]
+    },
+    "Pressure cook 25 to 40 min, turn off Keep Warm, release naturally"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

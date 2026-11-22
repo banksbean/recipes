@@ -1,0 +1,73 @@
+{
+ "title": "Loubia",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 18,
+ "source": {
+  "text": "Rancho Gordo Bean Club News (Q1 2022)"
+ },
+ "beans": "white (Alubia Blanca, Cassoulet, Cannellini, or Navy)",
+ "tags": {
+  "cuisine": [
+   "Moroccan"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "3 Tbsp olive oil",
+    "2 onions, minced (any kind)",
+    "4 garlic cloves, minced",
+    "3 celery stalks with leaves, finely chopped",
+    "4 carrots, finely chopped"
+   ]
+  },
+  {
+   "action": "Add in, saute quickly to combine:",
+   "items": [
+    "2 tsp fresh ground cumin",
+    "2 tsp turmeric",
+    "3 Tbsp paprika (yes, 3 whole tablespoons; smoked if you're daring)",
+    "2 tsp salt",
+    "2 tsp fresh ground black pepper"
+   ]
+  },
+  {
+   "action": "Add in, cook until beans are done:",
+   "items": [
+    "1 lb beans (2 cups dry)",
+    "4 cups water"
+   ]
+  },
+  {
+   "action": "Add in, simmer 5 min:",
+   "items": [
+    "1 can chopped tomatoes with juice",
+    "4 Tbsp tomato paste"
+   ]
+  },
+  {
+   "action": "Serve with dressing, equal parts:",
+   "items": [
+    "Red wine vinegar",
+    "Olive oil"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

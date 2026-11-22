@@ -1,0 +1,93 @@
+{
+ "title": "Chiapas-Style Ground Beef, Cabbage, and White Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 21,
+ "source": {
+  "text": "Steve Sando with Julia Newberry, The Bean Book (Rancho Gordo), p. 241, after Diana Kennedy"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-18",
+ "beans": "white, cooked (any bean that holds its shape)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beef",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "text": "Saute mode only, no pressure cook. Works the same in a large heavy skillet over medium heat."
+  },
+  {
+   "action": "Crush with mortar and pestle:",
+   "items": [
+    "3 garlic cloves, roughly chopped",
+    "6 whole peppercorns",
+    "Salt to taste"
+   ]
+  },
+  {
+   "action": "Mix, rest a few min to season:",
+   "items": [
+    "All above",
+    "1 lb ground sirloin"
+   ]
+  },
+  {
+   "action": "Saute, medium, until onion is translucent (~1 min):",
+   "items": [
+    "3 Tbsp vegetable oil",
+    "¼ cup white onion, finely chopped",
+    "1 jalapeño, seeded and finely chopped",
+    "Pinch of salt"
+   ]
+  },
+  {
+   "action": "Add in, cook until most juice is absorbed (~3 min):",
+   "items": [
+    "1 medium tomato (6 oz), finely chopped (or ½ cup canned diced)"
+   ]
+  },
+  {
+   "action": "Add in, stir occasionally until browned (~7 min):",
+   "items": [
+    "Seasoned beef"
+   ]
+  },
+  {
+   "action": "Add in, stir occasionally until moist but not juicy (~15 min):",
+   "items": [
+    "4 cups cabbage, finely shredded",
+    "1½ cups cooked white beans, drained (e.g. Rancho Gordo Ayocote Blanco)",
+    "⅔ cup water",
+    "½ cup fresh cilantro, roughly chopped, firmly packed"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Tostadas or rice",
+    "Or use as a stuffing for chiles"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Already single-pot as written: all Saute, no pressure step, since the beans go in cooked and pressure would overcook the cabbage. 1½ cups cooked is about ½ cup dry (~¼ lb); cook those first per Fundamentals",
+  "Source gives no salt amount for the garlic paste; left as salt to taste",
+  "~1 min for translucent onion is the source's time; expect 2 to 3 min in practice",
+  "Source note: black beans with green cabbage look muddy; purple cabbage works with any bean"
+ ]
+}

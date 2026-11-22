@@ -1,0 +1,66 @@
+{
+ "title": "Helado de Elote (Sweet Corn Ice Cream)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 11,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Helado de elote.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Dessert"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Boil 15 min, until corn is cooked; cool:",
+   "items": [
+    "1 cup water",
+    "1 cup corn kernels"
+   ]
+  },
+  {
+   "action": "Blend until very smooth:",
+   "items": [
+    "Cooked corn",
+    "1 cup whole milk",
+    "¾ cup sugar",
+    "½ cup cream",
+    "2 eggs",
+    "1 can (12 oz) evaporated milk"
+   ]
+  },
+  {
+   "action": "Churn:",
+   "items": [
+    "In an ice cream maker",
+    {
+     "text": "No machine:",
+     "sub": [
+      "Freeze in a container about 1 hr, until half frozen",
+      "Beat with a mixer or whisk until fluffy",
+      "Return to the freezer to harden"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Eggs are not cooked in this method"
+ ]
+}

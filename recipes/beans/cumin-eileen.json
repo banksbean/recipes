@@ -1,0 +1,50 @@
+{
+ "title": "Cumin Eileen",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 7,
+ "beans": "black",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water (or more, for soupier)",
+    "2 Tbsp butter",
+    "2 yellow onions, diced",
+    "3 celery ribs, diced",
+    "1 small can (4 oz) diced green chiles",
+    "1 tsp red pepper",
+    "1 tsp granulated garlic",
+    "1½ Tbsp cumin",
+    "1 tsp salt"
+   ]
+  },
+  {
+   "action": "Once depressurized, stir in:",
+   "items": [
+    "2 Tbsp lime juice (or 1 tsp True Lime powder)",
+    "½ cup fresh cilantro, roughly chopped"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

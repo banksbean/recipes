@@ -1,0 +1,45 @@
+{
+ "title": "Black Bean, Celery, and Radish Salad",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 33,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "black",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Toss:",
+   "items": [
+    "½ lb black beans (dry), cooked and drained",
+    "½ red onion, thinly sliced",
+    "1 celery stalk, finely chopped",
+    "1 cucumber, thinly sliced",
+    "1 bunch radishes, thinly sliced",
+    "3 Tbsp olive oil",
+    "2 tsp vinegar",
+    "Salt and pepper to taste",
+    "⅓ cup flat-leaf parsley, chopped"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

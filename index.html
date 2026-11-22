@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Recipes</title>
+<meta name="description" content="Ryan's recipe collection: house recipes, Pakistani and North Indian, and beans.">
+<meta name="theme-color" content="#3d6b35">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#f7f4ee;--card:#fff;--ink:#1f1d1a;--mute:#6b665e;--line:#e4ded3;--acc:#3d6b35;--acc2:#e8f0e4;--warn:#9a3412;--chip:#efeae1;--r:12px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+@media (prefers-color-scheme:dark){:root{--bg:#161513;--card:#201f1c;--ink:#eeeae3;--mute:#a39d93;--line:#34312c;--acc:#8fc283;--acc2:#24331f;--warn:#fb923c;--chip:#2a2824}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--font)}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--acc)}
+.wrap{max-width:860px;margin:0 auto;padding:0 14px}
+header.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.bar{display:flex;align-items:center;gap:10px;padding:10px 0 8px}
+.brand{font:700 22px/1 var(--serif);letter-spacing:.2px;white-space:nowrap;text-decoration:none;color:var(--ink)}
+.search{flex:1;position:relative}
+.search input{width:100%;padding:10px 12px 10px 36px;border:1px solid var(--line);border-radius:999px;background:var(--card);outline:none;font-size:16px}
+.search input:focus{border-color:var(--acc)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.5}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:0 0 10px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px;font-size:14px;white-space:nowrap}
+.chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+@media (prefers-color-scheme:dark){.chip[aria-pressed=true]{color:#10200c}}
+.chip .n{opacity:.65;margin-left:4px;font-size:12px}
+.filters{display:none;padding:4px 0 12px}
+.filters.open{display:block}
+.fgroup{margin:6px 0}
+.fgroup h4{margin:0 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+.fgroup .chips{flex-wrap:wrap;overflow:visible;padding:0}
+.count{color:var(--mute);font-size:14px;padding:10px 0 6px;display:flex;justify-content:space-between;align-items:center}
+.linkbtn{background:none;border:0;color:var(--acc);padding:0;font-size:14px}
+.list{list-style:none;margin:0;padding:0 0 40px}
+.sec{font:600 13px var(--font);text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:18px 0 6px}
+.card{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 12px;margin:0 0 8px;text-decoration:none;color:inherit}
+.card .main{flex:1;min-width:0}
+.card .t{font:600 17px/1.3 var(--serif)}
+.card .s{color:var(--mute);font-size:13px;margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.tag{font-size:12px;background:var(--chip);border-radius:6px;padding:1px 7px;color:var(--mute)}
+.marks{display:flex;flex-direction:column;align-items:center;gap:4px;color:var(--mute);font-size:12px}
+.fav{color:#c2410c}
+.empty{text-align:center;color:var(--mute);padding:40px 0}
+/* recipe view */
+.rv{padding-bottom:80px}
+.back{display:inline-flex;align-items:center;gap:4px;margin:12px 0 0;background:none;border:0;color:var(--acc);padding:6px 0;font-size:15px}
+.rv h1{font:700 24px/1.22 var(--serif);margin:6px 0 6px}
+@media (min-width:720px){.rv h1{font-size:30px}}
+body.reading #quick,body.reading #filters{display:none!important}
+.filters.open{max-height:60vh;overflow-y:auto}
+.meta{color:var(--mute);font-size:14px}
+.meta div{margin:2px 0}
+.desc{margin:10px 0;font-style:italic}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);margin:12px 0 0}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--card)}
+.seg button{border:0;background:none;padding:6px 11px;font-size:14px}
+.seg button[aria-pressed=true]{background:var(--acc);color:#fff}
+@media (prefers-color-scheme:dark){.seg button[aria-pressed=true]{color:#10200c}}
+.scaler{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.scaler button{border:0;background:none;width:36px;height:34px;font-size:20px;line-height:1}
+.scaler span{min-width:64px;max-width:52vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}
+.tbtn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:14px}
+.tbtn[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+@media (prefers-color-scheme:dark){.tbtn[aria-pressed=true]{color:#10200c}}
+.rv h2{font:700 19px var(--serif);margin:22px 0 8px}
+.ing{list-style:none;padding:0;margin:0}
+.ing li{padding:6px 0;border-bottom:1px solid var(--line);display:flex;gap:8px}
+.ing .q{font-weight:600;white-space:nowrap;min-width:72px;font-variant-numeric:tabular-nums}
+.ing h3,.steps h3{font:600 13px var(--font);text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:14px 0 2px}
+.steps{list-style:none;padding:0;margin:0;counter-reset:st}
+.step{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.step input[type=checkbox]{width:22px;height:22px;margin:2px 0 0;accent-color:var(--acc);flex:none}
+.step .body{flex:1;min-width:0}
+.step .act{font-weight:600}
+.step.done .body{opacity:.45}
+.step.done .act{text-decoration:line-through}
+.step ul{margin:4px 0 0;padding-left:18px}
+.step li{margin:2px 0}
+.step li .q{font-weight:600}
+.step li.note,.sub li{color:var(--mute);font-size:15px}
+.step li.label{list-style:none;margin-left:-18px;font-weight:600;color:var(--mute)}
+.timer{display:inline-block;margin:4px 6px 0 0;border:1px solid var(--line);background:var(--acc2);border-radius:999px;padding:2px 10px;font-size:13px;color:var(--ink)}
+.block{border-left:3px solid var(--acc2);padding-left:10px;margin:6px 0}
+.notes p{margin:6px 0}
+.ed{color:var(--mute);font-size:14px}
+.ed li{margin:3px 0}
+.mine{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px;margin-top:22px}
+.mine h2{margin-top:0}
+.mine textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--bg);font-size:16px}
+.log{font-size:14px;color:var(--mute);margin:8px 0 0;padding:0;list-style:none}
+.log li{display:flex;justify-content:space-between;padding:3px 0}
+.log button{border:0;background:none;color:var(--mute)}
+.conv{font-size:14px;color:var(--mute)}
+.conv summary{cursor:pointer;color:var(--acc)}
+.small{font-size:13px;color:var(--mute)}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:15px;z-index:50;display:none;align-items:center;gap:10px;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.toast.show{display:flex}
+.toast button{background:none;border:1px solid currentColor;color:inherit;border-radius:999px;padding:2px 10px;font-size:13px}
+body.cook .rv{font-size:19px}
+body.cook .step .act{font-size:20px}
+body.cook .step input[type=checkbox]{width:28px;height:28px}
+footer{color:var(--mute);font-size:13px;padding:20px 0 40px;text-align:center}
+@media (min-width:720px){
+  .rv .cols{display:grid;grid-template-columns:minmax(240px,1fr) 2fr;gap:28px;align-items:start}
+  .rv .cols .ingc{position:sticky;top:70px}
+  .card .t{font-size:18px}
+}
+@media print{
+  header.top,.tools,.back,.mine,.timer,.toast,footer,.noprint{display:none!important}
+  body{background:#fff;color:#000;font-size:11pt}
+  .rv h1{font-size:20pt}
+  .step{break-inside:avoid;border-color:#ccc}
+  .step input{display:none}
+  .step.done .body{opacity:1}.step.done .act{text-decoration:none}
+  .rv .cols{display:block}
+  a{color:#000;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#/">Recipes</a>
+      <label class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search titles, ingredients, notes" autocomplete="off" enterkeyhint="search" aria-label="Search"></label>
+    </div>
+    <div class="chips" id="quick"></div>
+    <div class="filters" id="filters"></div>
+  </div>
+</header>
+<main class="wrap" id="app"><p class="empty">Loading recipes...</p></main>
+<div class="toast" id="toast" role="status"><span id="toastMsg"></span><button id="toastBtn" hidden>Stop</button></div>
+<script>
+"use strict";
+/* ---------- personal data: lives only in this browser ---------- */
+const STORE = "recipes.v1";
+const store = (() => {
+  let d = {fav:{}, made:{}, notes:{}, checks:{}, prefs:{}};
+  try { const s = JSON.parse(localStorage.getItem(STORE) || "null"); if (s && typeof s === "object") d = Object.assign(d, s); } catch (e) {}
+  const save = () => { try { localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  return {d, save};
+})();
+const S = store.d;
+
+/* ---------- helpers ---------- */
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => String(s || "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "");
+const TAGS = ["cuisine", "course", "protein", "season"];
+const TAG_LABEL = {cuisine:"Cuisine", course:"Course", protein:"Protein", season:"Season"};
+let DB = null, BYID = {};
+const state = {q: "", col: null, tags: {cuisine:new Set(), course:new Set(), protein:new Set(), season:new Set()}, fav: false, made: false, open: false};
+
+/* ---------- quantities ---------- */
+const FR = [[0,""],[1/8,"⅛"],[1/4,"¼"],[1/3,"⅓"],[3/8,"⅜"],[1/2,"½"],[5/8,"⅝"],[2/3,"⅔"],[3/4,"¾"],[7/8,"⅞"],[1,""]];
+function frac(x) {
+  if (x >= 20) return String(Math.round(x));
+  let w = Math.floor(x), f = x - w, best = FR[0], bd = 9;
+  for (const p of FR) { const d = Math.abs(f - p[0]); if (d < bd) { bd = d; best = p; } }
+  if (best[0] === 1) { w += 1; best = FR[0]; }
+  if (w === 0 && !best[1]) return x > 0 ? "⅛" : "0";
+  return (w ? String(w) : "") + best[1];
+}
+function dec(x) {
+  if (x >= 100) return String(Math.round(x / 5) * 5);
+  if (x >= 20) return String(Math.round(x));
+  if (x >= 1) return String(Math.round(x * 10) / 10);
+  return String(Math.round(x * 100) / 100);
+}
+const MET = {g:1, kg:1, ml:1, L:1, cm:1, mm:1};
+const TO_METRIC = {cup:[236.6,"ml"], "fl oz":[29.57,"ml"], qt:[946,"ml"], pint:[473,"ml"], lb:[453.6,"g"], oz:[28.35,"g"], in:[2.54,"cm"]};
+function toMetric(q, u) {
+  if (!(u in TO_METRIC)) return [q, u];
+  let [f, nu] = TO_METRIC[u]; q *= f;
+  if (nu === "g" && q >= 1000) return [q / 1000, "kg"];
+  if (nu === "ml" && q >= 1000) return [q / 1000, "L"];
+  return [q, nu];
+}
+function toUS(q, u) {
+  switch (u) {
+    case "g": q /= 28.35; return q >= 16 ? [q / 16, "lb"] : [q, "oz"];
+    case "kg": return [q * 2.2046, "lb"];
+    case "ml": return q < 15 ? [q / 4.93, "tsp"] : q < 60 ? [q / 14.79, "Tbsp"] : [q / 236.6, "cup"];
+    case "L": q *= 4.227; return q >= 8 ? [q / 4, "qt"] : [q, "cup"];
+    case "cm": return [q / 2.54, "in"];
+    case "mm": return [q / 25.4, "in"];
+  }
+  return [q, u];
+}
+// returns display string for a parsed quantity under current scale + unit system
+function qtyText(it, f, sys) {
+  if (it.qty == null) return "";
+  let q = it.qty * f, q2 = it.qty_max != null ? it.qty_max * f : null, u = it.unit;
+  if (sys !== "orig" && u) {
+    const isMet = u in MET, wantMet = sys === "metric";
+    if (isMet !== wantMet && it.alt && ((it.alt.unit in MET) === wantMet)) {
+      q = it.alt.qty * f; q2 = it.alt.qty_max != null ? it.alt.qty_max * f : null; u = it.alt.unit;
+    } else if (wantMet && !isMet) { const r = q; [q, u] = toMetric(q, it.unit); if (q2 != null) q2 = q2 * (q / r); }
+    else if (!wantMet && isMet) { const r = q; [q, u] = toUS(q, it.unit); if (q2 != null) q2 = q2 * (q / r); }
+  }
+  const fmt = (u && u in MET) ? dec : frac;
+  let s = fmt(q) + (q2 != null ? " to " + fmt(q2) : "");
+  if (u === "cup" && (q2 != null || q > 1.01)) u = "cups";
+  if (it.prefix) s = it.prefix + " " + s;
+  return u ? s + " " + u : s;
+}
+function tempText(t, sys) {
+  if (sys === "metric" && !/°\s?C/.test(t)) return t.replace(/(\d+)\s?°\s?F/g, (m, n) => Math.round((n - 32) * 5 / 9 / 5) * 5 + " °C");
+  if (sys === "us" && !/°\s?F/.test(t)) return t.replace(/(\d+)\s?°\s?C/g, (m, n) => Math.round((n * 9 / 5 + 32) / 5) * 5 + " °F");
+  return t;
+}
+
+/* ---------- data ---------- */
+async function load() {
+  const r = await fetch("data/recipes.json", {cache: "no-cache"});
+  DB = await r.json();
+  for (const x of DB.recipes) {
+    BYID[x.id] = x;
+    const bits = [x.title, x.section, x.description, x.source && x.source.text, x.beans,
+      ...x.ingredients.map(i => i.item), ...x.notes.map(n => n.text), ...x.editor_notes, ...TAGS.flatMap(k => x.tags[k])];
+    x._idx = norm(bits.filter(Boolean).join(" \n "));
+  }
+}
+
+/* ---------- list view ---------- */
+function matches(x) {
+  if (state.col && x.collection !== state.col) return false;
+  if (state.fav && !S.fav[x.id]) return false;
+  if (state.made && !(S.made[x.id] || []).length) return false;
+  for (const k of TAGS) if (state.tags[k].size && !x.tags[k].some(v => state.tags[k].has(v))) return false;
+  if (state.q) {
+    const idx = x._idx + " \n " + norm(S.notes[x.id] || "");
+    for (const w of norm(state.q).split(/\s+/).filter(Boolean)) if (!idx.includes(w)) return false;
+  }
+  return true;
+}
+function activeFilters() { return TAGS.reduce((n, k) => n + state.tags[k].size, 0) + (state.fav ? 1 : 0) + (state.made ? 1 : 0); }
+function renderChips() {
+  const cols = DB.collections.map(c => `<button class="chip" data-col="${c.id}" aria-pressed="${state.col === c.id}">${esc(c.name)}<span class="n">${DB.recipes.filter(r => r.collection === c.id).length}</span></button>`).join("");
+  const n = activeFilters();
+  $("#quick").innerHTML = `<button class="chip" id="ftoggle" aria-pressed="${state.open}" aria-expanded="${state.open}">Filters${n ? " · " + n : ""}</button>`
+    + `<button class="chip" data-fav aria-pressed="${state.fav}">♥ Favorites</button>` + cols;
+  const groups = TAGS.map(k => {
+    const vals = [...new Set(DB.recipes.flatMap(r => r.tags[k]))].sort();
+    return `<div class="fgroup"><h4>${TAG_LABEL[k]}</h4><div class="chips">${vals.map(v => `<button class="chip" data-tag="${k}" data-v="${esc(v)}" aria-pressed="${state.tags[k].has(v)}">${esc(v)}</button>`).join("")}</div></div>`;
+  }).join("");
+  $("#filters").innerHTML = groups + `<div class="fgroup"><h4>Mine</h4><div class="chips"><button class="chip" data-made aria-pressed="${state.made}">Made it</button></div></div>`;
+  $("#filters").classList.toggle("open", state.open);
+}
+function renderList() {
+  document.body.classList.remove("cook", "reading"); releaseWake();
+  document.title = "Recipes";
+  const hits = DB.recipes.filter(matches);
+  const nRec = hits.filter(r => r.collection !== "guides").length, nG = hits.length - nRec;
+  let html = `<div class="count"><span>${nRec} recipe${nRec === 1 ? "" : "s"}${nG ? ` · ${nG} guide${nG === 1 ? "" : "s"}` : ""}</span>${(activeFilters() || state.col || state.q) ? '<button class="linkbtn" id="clear">Clear all</button>' : ""}</div>`;
+  if (!hits.length) html += `<p class="empty">Nothing matches. Try fewer words or filters.</p>`;
+  let last = "";
+  html += '<ul class="list">';
+  for (const x of hits) {
+    const head = (DB.collections.find(c => c.id === x.collection) || {}).name + (x.section ? " · " + x.section : "");
+    if (head !== last && !state.q) { html += `<li class="sec">${esc(head)}</li>`; last = head; }
+    const made = (S.made[x.id] || []).length;
+    const tags = [...x.tags.cuisine, ...x.tags.course, ...x.tags.protein].slice(0, 4);
+    html += `<li><a class="card" href="#/r/${x.id}"><div class="main"><div class="t">${esc(x.title)}</div>
+      <div class="s">${esc([x.source && x.source.text, x.makes && x.makes.text].filter(Boolean).join(" · ") || head)}</div>
+      ${tags.length ? `<div class="tags">${tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</div>
+      <div class="marks">${S.fav[x.id] ? '<span class="fav" title="Favorite">♥</span>' : ""}${made ? `<span title="Made ${made} times">✓${made > 1 ? made : ""}</span>` : ""}</div></a></li>`;
+  }
+  html += "</ul>";
+  html += `<footer>${DB.count} recipes · built ${esc(DB.built)} · favorites and notes stay on this device</footer>`;
+  $("#app").innerHTML = html;
+}
+
+/* ---------- recipe view ---------- */
+const view = {id: null, f: 1, target: null};
+function sysPref() { return S.prefs.units || "orig"; }
+function baseServ(x) { return x.makes && x.makes.qty ? x.makes.qty : null; }
+function itemHTML(it, f, sys) {
+  if (it.kind === "ingredient" && it.qty != null) return `<span class="q">${esc(qtyText(it, f, sys))}</span> ${esc(it.item)}`;
+  return esc(it.text);
+}
+function itemsHTML(items, f, sys) {
+  if (!items || !items.length) return "";
+  return "<ul>" + items.map(it => `<li class="${it.kind}">${itemHTML(it, f, sys)}${it.sub && it.sub.length ? `<ul class="sub">${it.sub.map(s => `<li class="${s.kind}">${itemHTML(s, f, sys)}</li>`).join("")}</ul>` : ""}</li>`).join("") + "</ul>";
+}
+const TIME_RE = /(\d+(?:\.\d+)?)(?:\s*(?:to|-|–)\s*(\d+(?:\.\d+)?))?\s*(min(?:utes?)?|hrs?|hours?|sec(?:onds?)?)\b/gi;
+function timersHTML(text) {
+  const out = []; let m; TIME_RE.lastIndex = 0;
+  while ((m = TIME_RE.exec(text))) {
+    const n = parseFloat(m[1]), u = m[3][0].toLowerCase();
+    const secs = n * (u === "h" ? 3600 : u === "m" ? 60 : 1);
+    if (secs >= 10 && secs <= 6 * 3600) out.push(`<button class="timer" data-secs="${secs}" data-label="${esc(m[0])}">⏱ ${esc(m[0])}</button>`);
+  }
+  return out.join("");
+}
+function ingList(x, f, sys) {
+  const groups = new Map();
+  for (const i of x.ingredients) { const g = i.group; if (!groups.has(g)) groups.set(g, []); groups.get(g).push(i); }
+  const name = g => g === "main" ? "" : g === "optional" ? "Optional" : g === "serve" ? "Serve with" : g;
+  let h = "";
+  for (const [g, list] of groups) {
+    if (name(g)) h += `<li style="border:0"><h3>${esc(name(g))}</h3></li>`;
+    h += list.map(i => `<li><span class="q">${esc(qtyText(i, f, sys))}</span><span>${esc(i.item)}</span></li>`).join("");
+  }
+  return h;
+}
+function renderRecipe(id) {
+  const x = BYID[id];
+  if (!x) { $("#app").innerHTML = `<button class="back" onclick="location.hash='#/'">‹ All recipes</button><p class="empty">Recipe not found.</p>`; return; }
+  if (view.id !== id) { view.id = id; view.f = 1; }
+  document.title = x.title + " · Recipes";
+  document.body.classList.add("reading");
+  const sys = sysPref(), f = view.f, base = baseServ(x);
+  const col = DB.collections.find(c => c.id === x.collection) || {};
+  const checks = S.checks[id] || {};
+  const isGuide = x.collection === "guides";
+  let scaleLbl;
+  if (base) { const n = base * f; scaleLbl = `${frac(n)} ${esc((x.makes.label || "").replace(/\s*\(.*\)\s*$/, ""))}`.trim(); }
+  else scaleLbl = `${frac(f)}×`;
+  const src = x.source ? (x.source.url ? `<a href="${esc(x.source.url)}" target="_blank" rel="noopener">${esc(x.source.text)}</a>` : esc(x.source.text)) : "";
+  const times = [x.prep_min ? `Prep ${x.prep_min} min` : "", x.cook_min ? `Cook ${x.cook_min} min` : ""].filter(Boolean).join(" · ");
+  let steps = "", n = 0;
+  for (const st of x.steps) {
+    n++;
+    const done = checks[n] ? " done" : "";
+    let body;
+    if (st.type === "text") body = `<div>${esc(tempText(st.text, sys))}</div>${timersHTML(st.text)}`;
+    else if (st.type === "table") body = st.blocks.map(b => `<div class="block"><div class="act">${b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>` : esc(b.title || "")}${b.action ? ": " + esc(b.action) : ""}</div>${itemsHTML(b.items, f, sys)}</div>`).join("");
+    else body = `<div class="act">${esc(tempText(st.text, sys))}</div>${itemsHTML(st.items, f, sys)}${timersHTML(st.text)}`;
+    steps += `<li class="step${done}" data-n="${n}">${isGuide ? "" : `<input type="checkbox" aria-label="Step ${n} done" ${checks[n] ? "checked" : ""}>`}<div class="body">${body}</div></li>`;
+  }
+  const made = S.made[id] || [];
+  const notes = x.notes.map(nt => `<p><b>${esc(nt.kind)} note${nt.d ? " (" + esc(nt.d) + ")" : ""}:</b> ${esc(nt.text)}</p>`).join("");
+  const eds = x.editor_notes.length ? `<ul class="ed">${x.editor_notes.map(e => `<li>[${esc(e)}]</li>`).join("")}</ul>` : "";
+  const conv = (col.conventions && col.conventions.length) ? `<details class="conv noprint"><summary>Book conventions</summary><ul>${col.conventions.map(c => `<li>${esc(c)}</li>`).join("")}</ul></details>` : "";
+  const cook = document.body.classList.contains("cook");
+  $("#app").innerHTML = `<article class="rv">
+    <button class="back" id="back">‹ All recipes</button>
+    <h1>${esc(x.title)}</h1>
+    <div class="meta">
+      ${src ? `<div>Source: ${src}</div>` : ""}
+      <div>${esc([col.name, x.section].filter(Boolean).join(" · "))}${x.makes ? " · Makes " + esc(x.makes.text) : ""}</div>
+      ${x.beans ? `<div>Beans: ${esc(x.beans)}</div>` : ""}
+      ${times ? `<div>${esc(times)}</div>` : ""}
+      ${x.added ? `<div>Added ${esc(x.added)}${x.origin ? " · " + esc(x.origin) : ""}</div>` : ""}
+    </div>
+    ${TAGS.some(k => x.tags[k].length) ? `<div class="tags">${TAGS.flatMap(k => x.tags[k]).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
+    ${x.description ? `<p class="desc">${esc(x.description)}</p>` : ""}
+    ${conv}
+    ${isGuide ? "" : `<div class="tools">
+      <div class="scaler" title="Scale"><button id="minus" aria-label="Less">−</button><span id="scaleLbl">${scaleLbl}</span><button id="plus" aria-label="More">+</button></div>
+      <div class="seg" role="group" aria-label="Units">${[["orig","As written"],["us","US"],["metric","Metric"]].map(([k, l]) => `<button data-units="${k}" aria-pressed="${sys === k}">${l}</button>`).join("")}</div>
+      <button class="tbtn" id="cook" aria-pressed="${cook}">Cook mode</button>
+      <button class="tbtn" id="fav" aria-pressed="${!!S.fav[id]}">${S.fav[id] ? "♥ Saved" : "♡ Save"}</button>
+      <button class="tbtn" id="print">Print</button>
+    </div>`}
+    <div class="cols">
+      ${x.ingredients.length && !isGuide ? `<section class="ingc"><h2>Ingredients</h2><ul class="ing">${ingList(x, f, sys)}</ul></section>` : "<div></div>"}
+      <section><h2>${isGuide ? "Guide" : "Steps"}</h2><ol class="steps">${steps}</ol>
+        ${notes || eds ? `<section class="notes"><h2>Notes</h2>${notes}${eds}</section>` : ""}
+      </section>
+    </div>
+    <section class="mine">
+      <h2>My notes</h2>
+      <textarea id="mynote" placeholder="Saved on this device only">${esc(S.notes[id] || "")}</textarea>
+      <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button class="tbtn" id="made">✓ I made this today</button>
+        ${Object.keys(checks).length ? '<button class="tbtn" id="reset">Clear step checks</button>' : ""}
+      </div>
+      ${made.length ? `<ul class="log">${made.slice().reverse().map((d, i) => `<li><span>Made ${esc(d)}</span><button data-unmade="${made.length - 1 - i}" aria-label="Remove">✕</button></li>`).join("")}</ul>` : '<p class="small">No "made it" entries yet.</p>'}
+    </section>
+  </article>`;
+}
+
+/* ---------- wake lock (cook mode) ---------- */
+let wake = null;
+async function requestWake() {
+  try { if ("wakeLock" in navigator) { wake = await navigator.wakeLock.request("screen"); wake.addEventListener("release", () => { wake = null; }); return true; } } catch (e) {}
+  return false;
+}
+function releaseWake() { try { if (wake) wake.release(); } catch (e) {} wake = null; }
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && document.body.classList.contains("cook") && !wake) requestWake(); });
+
+/* ---------- timers ---------- */
+let timer = null;
+function toast(msg, stop) {
+  $("#toastMsg").textContent = msg; $("#toastBtn").hidden = !stop; $("#toast").classList.add("show");
+  if (!stop) setTimeout(() => { if (!timer) $("#toast").classList.remove("show"); }, 2200);
+}
+function beep() {
+  try { const a = new (window.AudioContext || window.webkitAudioContext)(); [0, .35, .7].forEach(t => { const o = a.createOscillator(), g = a.createGain(); o.frequency.value = 880; o.connect(g); g.connect(a.destination); g.gain.setValueAtTime(.2, a.currentTime + t); o.start(a.currentTime + t); o.stop(a.currentTime + t + .2); }); } catch (e) {}
+  try { navigator.vibrate && navigator.vibrate([300, 150, 300, 150, 300]); } catch (e) {}
+}
+function startTimer(secs, label) {
+  stopTimer();
+  const end = Date.now() + secs * 1000;
+  const tick = () => {
+    const left = Math.max(0, Math.round((end - Date.now()) / 1000));
+    const m = Math.floor(left / 60), s = left % 60;
+    toast(`${label}: ${m}:${String(s).padStart(2, "0")}`, true);
+    if (!left) { stopTimer(false); beep(); toast(`${label}: done`, false); }
+  };
+  timer = setInterval(tick, 500); tick();
+}
+function stopTimer(hide = true) { if (timer) clearInterval(timer); timer = null; if (hide) $("#toast").classList.remove("show"); }
+$("#toastBtn").onclick = () => stopTimer();
+
+/* ---------- events ---------- */
+document.addEventListener("click", e => {
+  const t = e.target.closest("button,input");
+  if (!t) return;
+  if (t.id === "ftoggle") { state.open = !state.open; renderChips(); return; }
+  if (t.dataset.col !== undefined) { state.col = state.col === t.dataset.col ? null : t.dataset.col; go(); return; }
+  if (t.hasAttribute("data-fav") && t.closest("#quick")) { state.fav = !state.fav; go(); return; }
+  if (t.hasAttribute("data-made") && t.closest("#filters")) { state.made = !state.made; go(); return; }
+  if (t.dataset.tag) { const s = state.tags[t.dataset.tag]; s.has(t.dataset.v) ? s.delete(t.dataset.v) : s.add(t.dataset.v); go(); return; }
+  if (t.id === "clear") { state.q = ""; $("#q").value = ""; state.col = null; state.fav = state.made = false; TAGS.forEach(k => state.tags[k].clear()); go(); return; }
+  if (t.id === "back") { if (history.length > 1 && sessionStorage.getItem("fromList")) history.back(); else location.hash = "#/"; return; }
+  const id = view.id, x = BYID[id];
+  if (!x) return;
+  if (t.id === "plus" || t.id === "minus") {
+    const base = baseServ(x), up = t.id === "plus";
+    if (base && base >= 1 && Number.isInteger(base) && !/cup|kg|lb|oz|ml/i.test(x.makes.label)) {
+      const cur = Math.round(base * view.f), nx = Math.max(1, cur + (up ? 1 : -1)); view.f = nx / base;
+    } else { const steps = [.25, .5, 1, 1.5, 2, 3, 4]; let i = steps.findIndex(s => s >= view.f - 1e-9); if (i < 0) i = steps.length - 1; view.f = steps[Math.max(0, Math.min(steps.length - 1, i + (up ? 1 : -1)))]; }
+    renderRecipe(id); return;
+  }
+  if (t.dataset.units) { S.prefs.units = t.dataset.units; store.save(); renderRecipe(id); return; }
+  if (t.id === "cook") {
+    const on = !document.body.classList.contains("cook");
+    document.body.classList.toggle("cook", on);
+    if (on) requestWake().then(ok => toast(ok ? "Cook mode: screen stays awake" : "Cook mode on (this browser can't keep the screen awake)"));
+    else releaseWake();
+    t.setAttribute("aria-pressed", on); return;
+  }
+  if (t.id === "fav") { S.fav[id] ? delete S.fav[id] : (S.fav[id] = true); store.save(); renderRecipe(id); return; }
+  if (t.id === "print") { window.print(); return; }
+  if (t.id === "made") { const d = new Date(); const s = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); (S.made[id] = S.made[id] || []).push(s); store.save(); renderRecipe(id); toast("Logged"); return; }
+  if (t.dataset.unmade !== undefined) { S.made[id].splice(+t.dataset.unmade, 1); if (!S.made[id].length) delete S.made[id]; store.save(); renderRecipe(id); return; }
+  if (t.id === "reset") { delete S.checks[id]; store.save(); renderRecipe(id); return; }
+  if (t.classList.contains("timer")) { startTimer(+t.dataset.secs, t.dataset.label); return; }
+  if (t.type === "checkbox" && t.closest(".step")) {
+    const li = t.closest(".step"), k = li.dataset.n;
+    S.checks[id] = S.checks[id] || {};
+    if (t.checked) S.checks[id][k] = 1; else delete S.checks[id][k];
+    if (!Object.keys(S.checks[id]).length) delete S.checks[id];
+    store.save(); li.classList.toggle("done", t.checked); return;
+  }
+});
+document.addEventListener("input", e => {
+  if (e.target.id === "q") { state.q = e.target.value; if (location.hash.startsWith("#/r/")) location.hash = "#/"; else renderList(); }
+  if (e.target.id === "mynote" && view.id) { const v = e.target.value; if (v.trim()) S.notes[view.id] = v; else delete S.notes[view.id]; store.save(); }
+});
+function go() { renderChips(); if (location.hash.startsWith("#/r/")) location.hash = "#/"; else renderList(); }
+let listScroll = 0;
+function route() {
+  const m = location.hash.match(/^#\/r\/([\w-]+)/);
+  if (m) {
+    sessionStorage.setItem("fromList", "1");
+    renderRecipe(m[1]); window.scrollTo(0, 0);
+  } else { renderList(); window.scrollTo(0, listScroll); }
+}
+window.addEventListener("scroll", () => { if (!location.hash.startsWith("#/r/")) listScroll = window.scrollY; }, {passive: true});
+window.addEventListener("hashchange", route);
+load().then(() => { renderChips(); route(); }).catch(err => { $("#app").innerHTML = `<p class="empty">Could not load recipes (${esc(err.message)}).</p>`; });
+if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+</script>
+</body>
+</html>

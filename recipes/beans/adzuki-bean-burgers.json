@@ -1,0 +1,51 @@
+{
+ "title": "Adzuki Bean Burgers",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 29,
+ "source": {
+  "text": "Gourmandelle",
+  "url": "https://gourmandelle.com/vegetarian-beef-burger-azuki-beans-veggie-burger/"
+ },
+ "beans": "adzuki, cooked",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Combine:",
+   "items": [
+    "1 cup (½ lb dry) adzuki beans, cooked and drained well",
+    "1 medium onion, finely chopped",
+    "1 small carrot, grated",
+    "6 to 7 young salad leaves, finely chopped",
+    "1 large egg",
+    "2 Tbsp fresh parsley, chopped",
+    "1 tsp thyme",
+    "½ tsp ground coriander",
+    "½ tsp allspice",
+    "Sea salt and ground pepper to taste",
+    "Breadcrumbs to thicken"
+   ]
+  },
+  {
+   "text": "Form into patties. Pan fry or grill."
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

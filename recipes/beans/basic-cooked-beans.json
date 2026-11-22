@@ -1,0 +1,78 @@
+{
+ "title": "Basic Cooked Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 20,
+ "source": {
+  "text": "Timothy Pakron, Garden Variety (via Rancho Gordo)"
+ },
+ "beans": "any",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "4 cups water (brothy; stay under the ½ fill line)",
+    "1 strip kombu (4 inches)",
+    "3 bay leaves",
+    "2 tsp salt",
+    "⅓ cup olive oil (also tames foam)",
+    "1 Tbsp garlic powder",
+    "1 Tbsp nutritional yeast",
+    "1 Tbsp tamari",
+    "½ tsp black pepper",
+    "½ tsp red pepper flakes",
+    {
+     "text": "Options! Add if desired:",
+     "sub": [
+      "2 to 3 shallots or 1 large onion, chopped",
+      "6 garlic cloves, sliced",
+      "1 to 2 celery stalks, chopped",
+      "1 to 2 carrots, chopped",
+      "1 tomato, diced",
+      "Pinch of dried herbs (thyme, oregano) or spices (cumin, paprika)"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Once depressurized, remove kombu and bay, stir in:",
+   "items": [
+    "1 Tbsp rice vinegar",
+    "Salt to taste",
+    "2 to 3 scallions or chives, sliced (optional)"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Cold-pressed olive oil",
+    "Flaky salt and black pepper",
+    "Lemon wedge",
+    "Fresh herbs (dill, parsley, basil, chives, thyme)"
+   ]
+  },
+  {
+   "text": "Store in jars, submerged in broth, up to 1 week. Or drain and toss with arugula, lemon, and olive oil."
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

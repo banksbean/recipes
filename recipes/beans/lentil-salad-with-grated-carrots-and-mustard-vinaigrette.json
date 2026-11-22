@@ -1,0 +1,50 @@
+{
+ "title": "Lentil Salad with Grated Carrots and Mustard Vinaigrette",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 31,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "French green or caviar lentils",
+ "tags": {
+  "cuisine": [
+   "French"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Whisk:",
+   "items": [
+    "2 garlic cloves, minced",
+    "½ yellow onion, finely chopped",
+    "1 tsp Dijon mustard",
+    "3 Tbsp white wine vinegar",
+    "½ cup olive oil",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Add in and toss:",
+   "items": [
+    "4 carrots, peeled and grated (~2 cups)",
+    "1 cup cooked lentils",
+    "1 cup parsley, chopped"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

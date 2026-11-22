@@ -1,0 +1,35 @@
+[
+ {
+  "id": "house",
+  "name": "House Recipes",
+  "blurb": "Mexican, Oaxacan and everything else in the master archive (All Recipes)."
+ },
+ {
+  "id": "raza",
+  "name": "Pakistani & North Indian",
+  "blurb": "From S. Abbas Raza, Pakistani & North Indian Cooking (2015), converted to the house recipe standard.",
+  "conventions": [
+   "Heat levels use the book's 1 to 10 dial: high, medium-high (7/10), medium (5/10), medium-low (3/10), low (2/10).",
+   "Ginger is measured in cubic inches: 2 cu in is a 1 × 1 × 2 in piece (about 2 × 3 × 5 cm).",
+   "Juice of 1 lime is about 2 Tbsp (30 ml).",
+   "Green chilies: 3 green chilies = 1 medium jalapeño. Serrano or Thai chilies can replace green chilies one for one, but heat varies widely.",
+   "Heat is set at an average Pakistani home level. For milder food, halve the cayenne and green chilies the first time.",
+   "Whole spices (cardamoms, cloves, peppercorns) are set aside on the plate, not eaten.",
+   "Grind coriander and cumin fresh; make garam masala and garlic/ginger pastes at home (see Basics). Store ground spices airtight.",
+   "Oil: any neutral vegetable oil; the book was tested with sunflower oil. Peanut oil for high-heat frying.",
+   "Bread: naan or chapati (store-bought frozen is fine); pita or a good baguette in a pinch.",
+   "On the side at the table: lime wedges, green chilies, chopped raw onion.",
+   "Easiest starting set: Queema Matar, Masoor Daal, Sweet and Sour Green Beans, Plain Basmati Rice."
+  ]
+ },
+ {
+  "id": "beans",
+  "name": "Beans",
+  "blurb": "Instant Pot first, plus stovetop, oven and cold bean salads (Bean Recipes v2)."
+ },
+ {
+  "id": "guides",
+  "name": "Guides",
+  "blurb": "Bean cooking methods and tips that apply to every bean recipe."
+ }
+]

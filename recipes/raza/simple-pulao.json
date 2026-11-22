@@ -1,0 +1,72 @@
+{
+ "title": "Simple Pulao (Basmati Rice Cooked in Stock)",
+ "collection": "raza",
+ "section": "Rice",
+ "sort": 22,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "The author's favorite rice: basmati cooked in stock with whole spices. Serve with meat or vegetable dishes, never with daal.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Rinse in a large bowl until the water runs almost clear (removes starch that makes grains stick); drain well:",
+   "items": [
+    "2 cups basmati rice (480 ml)"
+   ]
+  },
+  {
+   "action": "Heat in a large pot over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and stir about 1 min, until the cumin darkens slightly:",
+   "items": [
+    "3 black cardamoms",
+    "7 green cardamoms",
+    "14 black peppercorns",
+    "8 cloves",
+    "1 tsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Add and stir once:",
+   "items": [
+    "Rinsed rice"
+   ]
+  },
+  {
+   "action": "Add, stir well, and bring to a boil (stir until any bouillon cubes dissolve):",
+   "items": [
+    "2¾ cups beef stock (650 ml; chicken or vegetable ok; cubes fine, but measure the water exactly)",
+    "1 tsp salt, only if the stock is unsalted",
+    "1 tsp garam masala"
+   ]
+  },
+  {
+   "action": "Cover tightly; cook on low (2/10) exactly 23 min. Turn off heat and rest covered 5 min. Never lift the lid while cooking.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

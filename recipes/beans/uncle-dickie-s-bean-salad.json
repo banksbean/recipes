@@ -1,0 +1,61 @@
+{
+ "title": "Uncle Dickie's Bean Salad",
+ "collection": "beans",
+ "section": "Cold",
+ "sort": 30,
+ "source": {
+  "text": "Uncle Richard"
+ },
+ "beans": "any",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Salad"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Combine:",
+   "items": [
+    "1 lb beans, cooked, drained, cooled (reserve some bean broth)",
+    {
+     "text": "Dressing:",
+     "sub": [
+      "Apple cider vinegar",
+      "Olive oil",
+      "Garlic powder",
+      "Black pepper"
+     ]
+    },
+    "1 green bell pepper, finely chopped",
+    "1 red bell pepper, finely chopped",
+    "1 celery stalk, finely chopped",
+    "1 red onion, finely chopped",
+    "1 jalapeño, finely chopped",
+    "1 carrot, finely chopped",
+    "½ cup cilantro, finely chopped",
+    "Splash of reserved bean broth"
+   ]
+  },
+  {
+   "action": "Top with:",
+   "items": [
+    "Green onions",
+    "Cholula"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

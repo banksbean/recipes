@@ -1,0 +1,64 @@
+{
+ "title": "Tortillas de Flor de Calabaza (Squash Blossom Tortillas)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 9,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "9 tortillas",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Tortillas de flor de calabaza.doc (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Basic"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Mix until smooth:",
+   "items": [
+    "1 cup fresh masa (250 g)",
+    "10 squash blossoms, chopped (1 cup)",
+    "½ cup epazote leaves, chopped",
+    "½ cup fresh cheese, crumbled (50 g)",
+    "Water, as needed"
+   ]
+  },
+  {
+   "action": "Heat over medium only (hotter burns the cheese):",
+   "items": [
+    "Comal, ungreased cast iron, or nonstick skillet"
+   ]
+  },
+  {
+   "action": "Divide into 9 balls (40 g each); press as for Fresh Masa Tortillas:",
+   "items": [
+    "Target about 12 cm (4¾ in)"
+   ]
+  },
+  {
+   "action": "Cook:",
+   "items": [
+    "When edges dry (about 20 sec), flip",
+    "Cook about 2 min, flip, 20 sec more",
+    "Stack in a cloth napkin"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source translation says \"pumpkin flower\"; these are squash blossoms"
+ ]
+}

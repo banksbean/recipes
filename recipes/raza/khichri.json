@@ -1,0 +1,76 @@
+{
+ "title": "Khichri (Basmati Rice with Red Lentils)",
+ "collection": "raza",
+ "section": "Rice",
+ "sort": 23,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Rice and red lentils cooked together: the author's ultimate comfort food and the easiest thing to make in a rush. Goes with almost any meat or vegetable dish, or plain with raita or chutney; especially good with kababs.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Rinse in a large bowl until the water runs almost clear (removes starch that makes grains stick); drain well:",
+   "items": [
+    "2 cups basmati rice (480 ml)",
+    "1 cup masoor daal (red lentils, 240 ml)"
+   ]
+  },
+  {
+   "action": "Heat in a large pot over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and stir about 1 min, until the cumin darkens slightly:",
+   "items": [
+    "3 black cardamoms",
+    "8 green cardamoms",
+    "12 black peppercorns",
+    "8 cloves",
+    "1 tsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Add and fry, stirring occasionally, 5 to 8 min, until medium brown:",
+   "items": [
+    "1 medium onion (8 oz / 225 g), quartered and thinly sliced"
+   ]
+  },
+  {
+   "action": "Add rice and daal; stir once. Add, stir well, and bring to a boil:",
+   "items": [
+    "4 cups water (950 ml)",
+    "2 tsp salt",
+    "1 tsp garam masala"
+   ]
+  },
+  {
+   "action": "Cover tightly; cook on low (2/10) exactly 26 min. Turn off heat and rest covered 5 min. Never lift the lid while cooking.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

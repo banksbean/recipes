@@ -1,0 +1,44 @@
+{
+ "title": "Prik Shew Wan (Pickled Peppers)",
+ "collection": "house",
+ "section": "Salsas & Condiments",
+ "sort": 18,
+ "source": {
+  "text": "Ryan's own"
+ },
+ "added": "2026-11-15",
+ "origin": "Migrated from Recipes - Seis de Mayo.docx (Seis de Mayo party, 2018)",
+ "tags": {
+  "cuisine": [
+   "Thai"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Cover with soy sauce; age a few days:",
+   "items": [
+    "Serrano peppers, sliced",
+    "Granulated garlic",
+    {
+     "text": "Sweet heavy soy sauce",
+     "sub": [
+      "Substitute: regular soy sauce plus raw sugar, reduced on the stovetop"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

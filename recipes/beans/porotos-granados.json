@@ -1,0 +1,79 @@
+{
+ "title": "Porotos Granados (Chilean Cranberry Bean Stew)",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 27,
+ "source": {
+  "text": "Rancho Gordo Bean Club News"
+ },
+ "beans": "Cranberry (or Marcella)",
+ "tags": {
+  "cuisine": [
+   "Chilean"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Simmer until tender (1 to 3 hrs):",
+   "items": [
+    "1 lb beans (dry)"
+   ]
+  },
+  {
+   "action": "Add in, cook 20 min:",
+   "items": [
+    "1 lb pumpkin or winter squash, cubed",
+    "1 tsp salt",
+    "Small bunch fresh basil leaves",
+    "More water, as needed"
+   ]
+  },
+  {
+   "action": "Separately, saute ~7 min:",
+   "items": [
+    "Vegetable oil",
+    "1 large onion, chopped",
+    "2 garlic cloves, minced",
+    "A few more basil leaves",
+    "1 tsp sweet paprika",
+    "1 tsp ground cumin",
+    "Salt and pepper"
+   ]
+  },
+  {
+   "action": "Add to beans, cook 5 min:",
+   "items": [
+    "4 ears corn, kernels removed"
+   ]
+  },
+  {
+   "action": "Add to beans:",
+   "items": [
+    "Sauteed mix",
+    "2 Tbsp butter"
+   ]
+  },
+  {
+   "action": "Garnish with:",
+   "items": [
+    "Red chile powder",
+    "More basil"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

@@ -1,0 +1,99 @@
+{
+ "title": "Chicken Corn Soup",
+ "collection": "raza",
+ "section": "Soups",
+ "sort": 25,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 large servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A fixture of Chinese restaurants in Pakistan and India, where the author remembers family dinners spiking it with green chilies and vinegar; by now he counts it as a subcontinental dish. Easy.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Poultry"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Bring to a boil in a large pot on high (cube the chicken meanwhile):",
+   "items": [
+    "7 cups chicken stock (1.7 L), or 3 bouillon cubes in 7 cups water"
+   ]
+  },
+  {
+   "action": "Add; reduce to medium (5/10), cover, and cook 15 min:",
+   "items": [
+    "1 lb boneless chicken (450 g), in ⅓ in (1 cm) cubes"
+   ]
+  },
+  {
+   "action": "Add:",
+   "items": [
+    "1 Tbsp ground black pepper",
+    "1 can corn (14 oz / 400 g)"
+   ]
+  },
+  {
+   "action": "Pour in slowly while stirring:",
+   "items": [
+    "6 Tbsp cornstarch mixed into 1 cup warm water (240 ml)"
+   ]
+  },
+  {
+   "action": "Reduce to medium-low (3/10); simmer covered 45 min, stirring every 15 min. Turn off heat.",
+   "items": []
+  },
+  {
+   "action": "Pour in slowly, stirring very gently, to form egg threads:",
+   "items": [
+    "2 eggs, beaten"
+   ]
+  },
+  {
+   "action": "Stir in gently:",
+   "items": [
+    "¼ cup soy sauce (60 ml)",
+    "1 Tbsp sesame oil (optional)"
+   ]
+  },
+  {
+   "action": "Taste; add salt 1 tsp at a time only if needed (stock is usually salted).",
+   "items": []
+  },
+  {
+   "action": "Condiment: mix and add to individual bowls a tsp at a time:",
+   "items": [
+    "½ cup white vinegar (120 ml)",
+    "½ cup soy sauce (120 ml)",
+    "1 tsp cayenne",
+    "4 green chilies (or 1 large jalapeño), thinly sliced"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Bread, as a light meal; or as a first course"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source says cornflour (British usage); in the US this is cornstarch",
+  "Source doesn't say whether to drain the corn"
+ ]
+}

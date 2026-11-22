@@ -1,0 +1,58 @@
+{
+ "title": "Garlic and Ginger Pastes",
+ "collection": "raza",
+ "section": "Basics",
+ "sort": 2,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Fresh pastes used in most recipes here. Jarred versions taste of preservatives.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Basic"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend with just a little water into a paste:",
+   "items": [
+    {
+     "text": "Garlic paste:",
+     "sub": [
+      "About 5 medium garlic cloves, peeled, per 1 Tbsp"
+     ]
+    },
+    {
+     "text": "Ginger paste:",
+     "sub": [
+      "About 1 cu in ginger, roughly chopped, per 1 Tbsp"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Store refrigerated a few days.",
+   "items": [
+    "When a recipe calls for both, blend them together"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source ratios are inconsistent: the spice list says 5 garlic cloves and 1 cu in ginger per Tbsp; Aloo Gosht says 6 cloves and 2 cu in"
+ ]
+}

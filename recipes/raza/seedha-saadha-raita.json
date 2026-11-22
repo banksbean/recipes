@@ -1,0 +1,65 @@
+{
+ "title": "Seedha Saadha Raita (Yogurt with Mint and Cucumber)",
+ "collection": "raza",
+ "section": "Chutneys & Accompaniments",
+ "sort": 29,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Simple spiced yogurt with herbs, onion, and cucumber.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Mix in a large bowl:",
+   "items": [
+    "12 oz plain yogurt (340 g)",
+    "½ tsp cayenne",
+    "½ tsp ground roasted cumin",
+    "½ tsp ground black pepper",
+    "½ tsp salt"
+   ]
+  },
+  {
+   "action": "Mix in:",
+   "items": [
+    "½ cup cilantro, finely chopped, or ⅓ cup mint, finely chopped, or both"
+   ]
+  },
+  {
+   "action": "Mix in:",
+   "items": [
+    "½ cup red onion, chopped (any onion ok)",
+    "1 cup peeled cucumber, in ⅓ in (1 cm) dice"
+   ]
+  },
+  {
+   "action": "Adjust salt; garnish:",
+   "items": [
+    "Extra cilantro, mint, and/or paprika"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Ground roasted cumin isn't defined in the book; toast cumin seeds as for Garam Masala, then grind"
+ ]
+}

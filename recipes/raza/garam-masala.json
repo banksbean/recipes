@@ -1,0 +1,57 @@
+{
+ "title": "Garam Masala",
+ "collection": "raza",
+ "section": "Basics",
+ "sort": 1,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "The aromatic blend used throughout the book. Grind it at home; the canned or packet kind is a poor substitute.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Basic"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Toast in a small dry pan over high, stirring, until slightly darker and fragrant; do not burn:",
+   "items": [
+    "1 Tbsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Grind to a fine powder in a spice grinder:",
+   "items": [
+    "Toasted cumin",
+    "20 cloves",
+    "20 black peppercorns",
+    "4 black cardamoms",
+    "20 green cardamoms",
+    "2 in cinnamon stick",
+    "1 Tbsp fennel seeds"
+   ]
+  },
+  {
+   "action": "Store in an airtight jar.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Yield not given in source"
+ ]
+}

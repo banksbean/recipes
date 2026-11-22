@@ -1,0 +1,93 @@
+{
+ "title": "Chicken Tikka (Yogurt-Marinated Baked Chicken)",
+ "collection": "raza",
+ "section": "Chicken",
+ "sort": 10,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A classic that's easy despite the overnight marinade. Baked on a tray instead of skewered. Eat as a snack with a squeeze of lime, or with bread or rice and raita.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Poultry"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Drain: tie in a clean muslin, cheesecloth, or flat-weave dish cloth; hang from the faucet 30 min to 2 hr, then squeeze lightly:",
+   "items": [
+    "1½ cups yogurt (350 ml)",
+    "Removes water that would otherwise pool and steam the chicken"
+   ]
+  },
+  {
+   "action": "Mix in a large bowl:",
+   "items": [
+    "Drained yogurt",
+    "2 Tbsp oil (30 ml)",
+    "1 tsp cayenne",
+    "2 tsp paprika (optional)",
+    "1 tsp turmeric",
+    "2 tsp ground coriander",
+    "1 tsp garam masala",
+    "1½ tsp salt",
+    "2 tsp ginger paste",
+    "2 tsp garlic paste"
+   ]
+  },
+  {
+   "action": "Mix in; cover and refrigerate 2 to 24 hr (longer is better):",
+   "items": [
+    "1¾ lb boneless chicken thighs (800 g; breasts ok), in 1 in (2.5 cm) cubes"
+   ]
+  },
+  {
+   "action": "Preheat oven 15 min to 390 °F (200 °C).",
+   "items": []
+  },
+  {
+   "action": "Line a large baking tray with foil; spread over it with a paper towel:",
+   "items": [
+    "1 Tbsp oil (15 ml)"
+   ]
+  },
+  {
+   "action": "Arrange the chicken close together but not touching; bake 15 min.",
+   "items": []
+  },
+  {
+   "action": "Brush with oil, flip, brush the other side; bake 10 min:",
+   "items": [
+    "2 Tbsp oil (30 ml); a rolled paper towel works if no brush"
+   ]
+  },
+  {
+   "action": "Check: browned with crisp edges, not charred. Taste a piece; if not done, bake 10 min more and repeat.",
+   "items": []
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Lime wedges, as a snack",
+    "Bread or rice and raita"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

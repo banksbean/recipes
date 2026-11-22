@@ -1,0 +1,88 @@
+{
+ "title": "Tacos al Pastor",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 2,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Tacos al pastor.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Pork"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Toast on a comal, one at a time, without burning; soak in hot water until soft:",
+   "items": [
+    "3 ancho chiles, cleaned",
+    "4 guajillo chiles, cleaned",
+    "2 cups hot water"
+   ]
+  },
+  {
+   "action": "Blend until very smooth:",
+   "items": [
+    "Soaked chiles",
+    "¼ onion",
+    "3 garlic cloves",
+    "½ slice pineapple, 1 cm (⅜ in) thick",
+    "2 bay leaves",
+    "1 chipotle in adobo",
+    "1 tsp salt",
+    "3 allspice berries",
+    "2 cloves",
+    "⅛ tsp cumin seeds",
+    "30 g achiote paste (about 2 Tbsp)",
+    "2 Tbsp apple cider vinegar",
+    "¼ cup water"
+   ]
+  },
+  {
+   "action": "Marinate 1 hr, covered:",
+   "items": [
+    "500 g pork steaks (about 1 lb)",
+    "Marinade"
+   ]
+  },
+  {
+   "action": "Build a mini trompo; bake 40 min at 350 °F (180 °C):",
+   "items": [
+    "Foil-lined baking tray",
+    "1 slice pineapple, as the base",
+    "1 wooden skewer, cut in half, both halves pushed into the pineapple 3 cm (1¼ in) apart",
+    "Marinated pork, stacked onto the skewers"
+   ]
+  },
+  {
+   "action": "Slice and serve on:",
+   "items": [
+    "Small corn tortillas",
+    "½ cup pineapple, finely chopped",
+    "½ cup onion, finely chopped",
+    "½ cup cilantro, chopped",
+    "1 cup salsa",
+    "3 limes, quartered"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source lists \"peppers\" in the blend; read as the allspice (pimienta gorda)",
+  "Source says lemons; Mexican limón is lime"
+ ]
+}

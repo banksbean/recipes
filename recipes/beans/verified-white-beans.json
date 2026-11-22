@@ -1,0 +1,64 @@
+{
+ "title": "Verified White Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 19,
+ "source": {
+  "text": "Amanda"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "2 Tbsp olive oil",
+    "5 garlic cloves, minced",
+    "1 large yellow onion, diced"
+   ]
+  },
+  {
+   "action": "Add in, cook until beans are done:",
+   "items": [
+    "1 lb beans (2 cups dry)",
+    "1 Tbsp Better Than Bouillon, vegetable",
+    "2 tsp fresh rosemary, minced",
+    "2 tsp fresh thyme, minced",
+    "½ tsp red pepper flakes",
+    "Rind of 1 lemon",
+    "Parmesan rind (the more the merrier)"
+   ]
+  },
+  {
+   "action": "Remove lemon and parm rinds, bring to simmer, stir in:",
+   "items": [
+    "1 bunch kale, stems removed, chopped"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Grated parmesan",
+    "Lemon wedges"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

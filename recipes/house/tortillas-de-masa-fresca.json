@@ -1,0 +1,60 @@
+{
+ "title": "Tortillas de Masa Fresca (Fresh Masa Tortillas)",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 8,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "12 tortillas",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Tortillas de masa fresca.doc (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Basic"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Heat very hot, over high:",
+   "items": [
+    "Comal, ungreased cast iron, or nonstick skillet"
+   ]
+  },
+  {
+   "action": "Work with water until elastic and moist; divide into 12 balls (40 g each):",
+   "items": [
+    "2 cups fresh masa (500 g)",
+    "Water, as needed"
+   ]
+  },
+  {
+   "action": "Press each ball between two 20 cm (8 in) plastic sheets in a tortilla press:",
+   "items": [
+    "More pressure, thinner tortilla; target about 14 cm (5½ in)",
+    "Peel the top sheet, flip onto your palm, peel the second sheet"
+   ]
+  },
+  {
+   "action": "Cook:",
+   "items": [
+    "Lay on the comal; when edges dry (about 10 sec), flip",
+    "Cook about 1 min, flip again, 15 sec more",
+    "Stack in a cloth napkin"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

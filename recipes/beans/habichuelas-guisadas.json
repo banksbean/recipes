@@ -1,0 +1,101 @@
+{
+ "title": "Habichuelas Guisadas",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 14,
+ "source": {
+  "text": "Delish D'Lites",
+  "url": "https://www.delishdlites.com/recipe-index/latin-recipes/habichuelas-guisadas-puerto-rican-stewed-beans-recipe/",
+  "also": {
+   "text": "Food & Wine",
+   "url": "https://www.foodandwine.com/recipes/smoky-simmered-beans-with-sofrito"
+  }
+ },
+ "beans": "pink (or red, or pinto)",
+ "tags": {
+  "cuisine": [
+   "Puerto Rican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Pork",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute (2 to 3 min, until starting to caramelize):",
+   "items": [
+    "2 Tbsp olive oil",
+    "½ cup diced ham (or bacon!)"
+   ]
+  },
+  {
+   "action": "Add in (2 min, until fragrant):",
+   "items": [
+    "½ cup Puerto Rican sofrito (below)",
+    "3 tsp sazón con achiote y culantro (or just MSG...)"
+   ]
+  },
+  {
+   "action": "Add in (1 min):",
+   "items": [
+    "½ cup tomato sauce",
+    "½ tsp ground cumin",
+    "1 tsp dried oregano",
+    "4 bay leaves"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans, soaked, drained, rinsed",
+    "3 cups chicken broth",
+    "1 cup diced potato, pumpkin, and/or baby carrots",
+    "16 pimento-stuffed olives",
+    "¼ cup chopped cilantro",
+    "1 tsp adobo seasoning (below) or salt"
+   ]
+  },
+  {
+   "table": [
+    {
+     "title": "Puerto Rican Sofrito",
+     "url": "https://www.delishdlites.com/recipe-index/latin-recipes/puerto-rican-sofrito-recipe/",
+     "action": "Blend:",
+     "items": [
+      "1 onion",
+      "10 garlic cloves",
+      "½ lb ajíes dulces (sweet peppers)",
+      "1 bunch culantro (or ½ cilantro, ½ parsley)",
+      "1 green bell pepper"
+     ]
+    },
+    {
+     "title": "Adobo Seasoning",
+     "url": null,
+     "action": "Mix:",
+     "items": [
+      "2 Tbsp salt",
+      "1 Tbsp paprika",
+      "2 tsp black pepper",
+      "1½ tsp oregano",
+      "1½ tsp cumin",
+      "1 tsp garlic powder",
+      "1 tsp chili powder"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

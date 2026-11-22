@@ -1,0 +1,71 @@
+{
+ "title": "Jennie's Freestyle White Bean Soup",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 6,
+ "source": {
+  "text": "Jennie Davis"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "American"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Pork",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "2 Tbsp oil",
+    "1 lb Italian sausage",
+    "1 onion, chopped",
+    {
+     "text": "Options! Add if desired:",
+     "sub": [
+      "Carrots",
+      "Potatoes"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water (or more, for soupier)",
+    "2 bouillon cubes",
+    "Zest of ½ lemon",
+    {
+     "text": "Herbs and such, to taste:",
+     "sub": [
+      "Red pepper flakes",
+      "Oregano / thyme / basil / fennel"
+     ]
+    },
+    "1 bunch kale, chopped"
+   ]
+  },
+  {
+   "action": "Once depressurized, stir in:",
+   "items": [
+    "Salt to taste"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

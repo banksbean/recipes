@@ -1,0 +1,106 @@
+{
+ "title": "Mole Bueno",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 1,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "25 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Mole bueno.docx (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Poultry"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Broth: boil 30 min, until meat is cooked. Reserve meat and broth separately:",
+   "items": [
+    "4 L water (about 4 qt)",
+    "1 Tbsp salt",
+    "1 turkey, 4 kg (about 9 lb), in pieces (or 25 chicken pieces)",
+    "1 onion (230 g)",
+    "5 garlic cloves"
+   ]
+  },
+  {
+   "action": "Fry in a large skillet, one ingredient at a time, until golden; reserve each:",
+   "items": [
+    "1½ cups vegetable oil, adding more as needed (save what's left)",
+    {
+     "text": "Chiles, a few seconds each, do not burn:",
+     "sub": [
+      "13 pasilla chiles, cleaned",
+      "10 mulato chiles, cleaned"
+     ]
+    },
+    "1 cup almonds (140 g), until skins crack",
+    "1 cup pecans (80 g), lightly",
+    "1 cup raisins (150 g), until puffed; hold in water so they stay soft",
+    "2 plantains (600 g), sliced",
+    "1 onion (230 g), sliced, until translucent",
+    "3 tomatoes (375 g), sliced, until cooked"
+   ]
+  },
+  {
+   "action": "Dry-toast in a lidded pan, stirring constantly, until golden; reserve:",
+   "items": [
+    "½ cup hulled pumpkin seeds (50 g)",
+    "½ cup sesame seeds (55 g)"
+   ]
+  },
+  {
+   "action": "Blend until very smooth, with water just to cover:",
+   "items": [
+    "All fried and toasted ingredients",
+    "3 garlic cloves",
+    "1 Tbsp oregano",
+    "1 Tbsp thyme",
+    "4 cloves",
+    "4 allspice berries",
+    "1 cinnamon stick, 10 cm (4 in)"
+   ]
+  },
+  {
+   "action": "Cook over medium, stirring constantly, 1 to 1½ hr, until dark and reduced to a paste that pulls cleanly from the pan:",
+   "items": [
+    "3 Tbsp reserved frying oil",
+    "Blended sauce",
+    "4 tablets Oaxacan chocolate (200 g)",
+    "Salt to taste",
+    "Paste freezes well for weeks"
+   ]
+  },
+  {
+   "action": "Thin over heat, adding broth gradually, until it coats the back of a spoon:",
+   "items": [
+    "Mole paste",
+    "Up to 8 cups reserved broth"
+   ]
+  },
+  {
+   "action": "Serve:",
+   "items": [
+    "Meat on a platter, covered in mole"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source says to save leftover oil \"for frying the pasta\"; read as the mole paste"
+ ]
+}

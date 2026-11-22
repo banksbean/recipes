@@ -1,0 +1,90 @@
+{
+ "title": "Cassoulet Bean Gratin with Sausages, Mushrooms, and Peppers",
+ "collection": "beans",
+ "section": "Stovetop & Oven",
+ "sort": 25,
+ "source": {
+  "text": "Rancho Gordo Bean Club News (Q4 2026)"
+ },
+ "beans": "Cassoulet (or other large white), cooked",
+ "tags": {
+  "cuisine": [
+   "French"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Pork",
+   "Beans & Lentils"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "text": "One oven-safe skillet throughout. Preheat oven to 375°F."
+  },
+  {
+   "action": "Toast, medium, until golden; set aside:",
+   "items": [
+    "3 Tbsp olive oil",
+    "1 cup torn fresh bread (sourdough works well)",
+    "Pinch of salt"
+   ]
+  },
+  {
+   "action": "Brown, medium-high, ~10 min; set aside with juices (optional):",
+   "items": [
+    "1 Tbsp olive oil",
+    "2 Toulouse or mild Italian sausages"
+   ]
+  },
+  {
+   "action": "Saute, medium-high, ~8 min until well browned:",
+   "items": [
+    "¼ cup olive oil",
+    "10 oz cremini or shiitake mushrooms",
+    "½ tsp salt",
+    "Black pepper"
+   ]
+  },
+  {
+   "action": "Add in, medium, ~10 min until very soft:",
+   "items": [
+    "½ onion, thinly sliced",
+    "1 red bell pepper, thin strips",
+    "1 yellow or orange bell pepper, thin strips",
+    "3 garlic cloves, minced",
+    "1 Tbsp fresh thyme"
+   ]
+  },
+  {
+   "action": "Stir in:",
+   "items": [
+    "3 cups cooked beans (~½ lb dry)",
+    "1 to 2 Tbsp bean broth",
+    "Sausages, sliced 1 inch, with juices",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Bake at 375°F, ~15 min, until bubbling and golden:",
+   "items": [
+    "Toasted bread on top"
+   ]
+  },
+  {
+   "action": "Garnish with:",
+   "items": [
+    "1 Tbsp fresh thyme"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

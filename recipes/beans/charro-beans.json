@@ -1,0 +1,71 @@
+{
+ "title": "Charro Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 5,
+ "beans": "pinto",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "2 Tbsp oil",
+    "1 yellow onion, diced",
+    "4 garlic cloves, crushed"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water",
+    "1 bouillon cube",
+    "2 jalapeños, diced (or 1 small 4 oz can diced pickled jalapeños)",
+    "2 tsp cumin",
+    "½ tsp oregano",
+    "2 tsp salt",
+    {
+     "text": "Options! Add if desired:",
+     "sub": [
+      "1 can (14 oz) diced tomatoes",
+      "1 can (14 oz) corn, drained",
+      "1 tsp MSG",
+      "Salt pork, cut into small cubes"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Once depressurized, stir in:",
+   "items": [
+    "Salt to taste",
+    "1 cup fresh cilantro, roughly chopped"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Cilantro"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

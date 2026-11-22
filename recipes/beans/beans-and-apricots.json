@@ -1,0 +1,65 @@
+{
+ "title": "Beans and Apricots",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 10,
+ "source": {
+  "text": "Yotam Ottolenghi",
+  "url": "https://amp.theguardian.com/food/2020/oct/17/from-dal-to-butter-beans-yotam-ottolenghi-legumes-recipes"
+ },
+ "beans": "black & red (50/50), or beluga lentils & red beans (50/50)",
+ "tags": {
+  "cuisine": [
+   "Middle Eastern"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "3 Tbsp ghee or butter",
+    "30 g fresh ginger, peeled and finely grated",
+    "6 garlic cloves, crushed",
+    "2 green chiles, finely chopped, seeds and all (20 g)",
+    "1 onion, finely chopped (180 g)"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water",
+    "1 tsp garam masala",
+    "2 tsp ground cumin",
+    "3 oz tomato paste (half a small can)",
+    "100 g soft-dried apricots, quartered",
+    "¼ cup cream",
+    "2 tsp salt"
+   ]
+  },
+  {
+   "action": "Serve with apricot salsa (stir together):",
+   "items": [
+    "80 g soft-dried apricots, roughly chopped, soaked in hot water 20 min, drained",
+    "4 Tbsp (15 g) fresh cilantro, roughly chopped",
+    "3 limes: zest finely grated (1½ Tbsp), juiced (2 Tbsp)",
+    "3 Tbsp olive oil"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

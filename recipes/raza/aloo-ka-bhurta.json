@@ -1,0 +1,89 @@
+{
+ "title": "Aloo ka Bhurta (Spicy Mashed Potatoes)",
+ "collection": "raza",
+ "section": "Vegetables",
+ "sort": 15,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 side servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Somewhere between mashed potatoes and home fries, left lumpy, with browned onions for sweetness. Good on its own with bread or beside a meat or vegetable dish.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Cover with water by 1 in (2.5 cm); bring to a boil on high, then cover and cook on medium (5/10) 30 min. Drain:",
+   "items": [
+    "5 medium potatoes (25 oz / 700 g), peeled"
+   ]
+  },
+  {
+   "action": "Heat in a large frying pan over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Add and fry 1 min:",
+   "items": [
+    "2 tsp cumin seeds"
+   ]
+  },
+  {
+   "action": "Add and fry, stirring occasionally, 10+ min, until light brown:",
+   "items": [
+    "2 medium onions (1 lb / 450 g total), quartered and thinly sliced"
+   ]
+  },
+  {
+   "action": "Add and fry 1 min:",
+   "items": [
+    "1 tsp cayenne",
+    "1 tsp turmeric",
+    "1 tsp ground cumin",
+    "2 tsp salt"
+   ]
+  },
+  {
+   "action": "Add; break into ½ in (1.5 cm) pieces with the spatula and mix with the onions:",
+   "items": [
+    "Boiled potatoes"
+   ]
+  },
+  {
+   "action": "Add; press the potatoes against the pan to mash (leave lumps if you like), then fry 5 min, scraping occasionally:",
+   "items": [
+    "½ cup water (120 ml)"
+   ]
+  },
+  {
+   "action": "Turn off heat; mix in:",
+   "items": [
+    "Juice of 1 lime"
+   ]
+  },
+  {
+   "action": "Adjust salt and lime.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

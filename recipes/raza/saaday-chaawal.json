@@ -1,0 +1,51 @@
+{
+ "title": "Saaday Chaawal (Plain Basmati Rice)",
+ "collection": "raza",
+ "section": "Rice",
+ "sort": 21,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Plain basmati cooked so the long grains stay separate. Normally eaten with daal spooned over it, plus a meat or vegetable dish.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Rinse in a large pot until the water runs almost clear (removes starch that makes grains stick); drain well:",
+   "items": [
+    "2 cups basmati rice (480 ml)"
+   ]
+  },
+  {
+   "action": "Add and bring to a boil on high:",
+   "items": [
+    "2⅔ cups water (650 ml)",
+    "1 tsp salt (optional; the author leaves it out)"
+   ]
+  },
+  {
+   "action": "Cover tightly; cook on low (2/10) exactly 23 min. Turn off heat and rest covered 5 min. Never lift the lid while cooking.",
+   "items": []
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

@@ -1,0 +1,58 @@
+{
+ "title": "Easy Mango Mousse",
+ "collection": "raza",
+ "section": "Desserts",
+ "sort": 32,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "6 small servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A quick dessert, possible year-round with canned mango pulp.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Dessert"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend until smooth:",
+   "items": [
+    "1¾ lb mango pulp (800 g), canned or from ripe, sweet mangoes",
+    "2 Tbsp powdered sugar (or granulated)",
+    "Juice of 1 lime"
+   ]
+  },
+  {
+   "action": "Add slowly, blending until smooth:",
+   "items": [
+    "1 cup heavy cream (240 ml)"
+   ]
+  },
+  {
+   "action": "Pour into 6 small glasses; chill 30 min.",
+   "items": []
+  },
+  {
+   "action": "Garnish (optional):",
+   "items": [
+    "6 oz good chocolate (170 g), grated or shaved"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

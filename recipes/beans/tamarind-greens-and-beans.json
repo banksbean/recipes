@@ -1,0 +1,68 @@
+{
+ "title": "Tamarind Greens and Beans",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 9,
+ "source": {
+  "text": "Yotam Ottolenghi",
+  "url": "https://amp.theguardian.com/food/2020/oct/17/from-dal-to-butter-beans-yotam-ottolenghi-legumes-recipes"
+ },
+ "beans": "white",
+ "tags": {
+  "cuisine": [
+   "Middle Eastern"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Saute:",
+   "items": [
+    "½ cup olive oil",
+    "2 large onions, thinly sliced",
+    "10 garlic cloves, crushed"
+   ]
+  },
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "All above",
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "2 cups water",
+    "4 green chiles (jalapeño, serrano, Hatch, etc.), finely chopped, seeds and all",
+    "2 Tbsp cumin seeds, roughly crushed",
+    "1 Tbsp mild curry powder",
+    "2 Tbsp tomato paste",
+    "1 kg Swiss chard, stalks removed, leaves roughly shredded",
+    "2 tsp sugar"
+   ]
+  },
+  {
+   "action": "Once depressurized, stir in:",
+   "items": [
+    "Salt and black pepper",
+    "6 Tbsp tamarind paste",
+    "1 cup fresh cilantro, roughly chopped"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Greek-style yogurt"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

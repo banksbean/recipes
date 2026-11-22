@@ -1,0 +1,50 @@
+{
+ "title": "Tomatillo Bean Chili",
+ "collection": "beans",
+ "section": "Single Pot",
+ "sort": 8,
+ "beans": "any",
+ "tags": {
+  "cuisine": [
+   "Southwestern"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Pressure Cook:",
+   "items": [
+    "1 lb beans (2 cups dry), soaked and rinsed",
+    "1 can (14 oz) diced tomatoes",
+    "1 lb tomatillos (ideally roasted)",
+    "2 jalapeños, diced",
+    "2 serrano peppers, diced",
+    "3 garlic cloves, crushed",
+    "1 onion, chopped",
+    "2 bouillon cubes",
+    "2 Tbsp cumin",
+    "2 Tbsp chili powder (pick your poison)"
+   ]
+  },
+  {
+   "action": "Once depressurized, stir in:",
+   "items": [
+    "Salt to taste"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

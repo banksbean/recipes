@@ -1,0 +1,65 @@
+{
+ "title": "Rajas Poblanas",
+ "collection": "house",
+ "section": "Sides",
+ "sort": 16,
+ "source": {
+  "text": "Bon Appétit",
+  "url": "https://www.bonappetit.com/recipe/rajas-poblanas"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Migrated from Recipes - Seis de Mayo.docx (Seis de Mayo party, 2018)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Side"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Char over a flame or under a broiler until blackened; steam in a covered bowl, then peel, seed, and cut into ¼ in strips:",
+   "items": [
+    "2 lb large poblano chiles"
+   ]
+  },
+  {
+   "action": "Saute until soft:",
+   "items": [
+    "2 Tbsp oil",
+    "1 onion, quartered, sliced ¼ in",
+    "4 garlic cloves, minced",
+    "2 tsp dried Mexican oregano"
+   ]
+  },
+  {
+   "action": "Add and cook until flavors meld, about 5 min:",
+   "items": [
+    "Poblano strips"
+   ]
+  },
+  {
+   "action": "Off heat, stir in (add water by the Tbsp if dry):",
+   "items": [
+    "¾ cup crème fraîche or sour cream",
+    "¼ cup Monterey Jack, shredded",
+    "Kosher salt to taste"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "The 2018 note listed ingredients only; method summarized from the source during archiving",
+  "Oil amount not in the 2018 note"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Stovetop",
+ "collection": "guides",
+ "section": "Bean Basics",
+ "sort": 2,
+ "source": {
+  "text": "Rancho Gordo",
+  "url": "https://www.ranchogordo.com/blogs/recipes/cooking-basic-beans-in-the-rancho-gordo-manner"
+ },
+ "tags": {
+  "cuisine": [],
+  "course": [
+   "Guide"
+  ],
+  "protein": [],
+  "season": []
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Steps:",
+   "items": [
+    "Check beans for debris, rinse in several changes of water",
+    "Saute aromatics in olive oil",
+    "Add dry beans and enough liquid to cover by about 2 inches",
+    "Rapid boil 10 to 15 min",
+    "Lower to a gentle simmer until done, 1 to 3 hours; add hot water if low",
+    "Salt when beans are just starting to soften"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

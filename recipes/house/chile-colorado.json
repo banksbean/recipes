@@ -1,0 +1,97 @@
+{
+ "title": "Chile Colorado",
+ "collection": "house",
+ "section": "Soups & Stews",
+ "sort": 15,
+ "source": {
+  "text": "Cowboy Kent Rollins",
+  "url": "https://kentrollins.com/chile-colorado-stew/"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-17",
+ "origin": "Uploaded as YouTube link (https://youtu.be/Ws7vLUbxhXQ); quantities from the linked printable recipe",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beef"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Boil in a stockpot until the chiles are soft, about 20 min:",
+   "items": [
+    "8 dried guajillo chiles, stemmed and seeded",
+    "3 dried ancho chiles, stemmed and seeded",
+    "1 dried chile de árbol, stemmed and seeded",
+    "3 garlic cloves",
+    "1 white onion, halved",
+    "Water to cover generously"
+   ]
+  },
+  {
+   "action": "Meanwhile, trim excess fat and cut into even bite-sized pieces:",
+   "items": [
+    "3 lb stew meat (chuck roast, wild game, etc.)"
+   ]
+  },
+  {
+   "action": "Mix in a bowl; toss the meat to coat generously:",
+   "items": [
+    "¾ cup all-purpose flour",
+    "2 Tbsp Kent's Original Seasoning (or salt, pepper, and garlic powder to taste)"
+   ]
+  },
+  {
+   "action": "Brown on all sides in a large cast iron skillet over medium-high, in 2 batches, about 5 min per batch; move to a Dutch oven and scrape in the drippings:",
+   "items": [
+    "6 Tbsp cooking oil (avocado, olive, etc.), 2 to 3 Tbsp per batch",
+    "Floured meat, shaken free of excess flour"
+   ]
+  },
+  {
+   "action": "Strain the chiles, reserving the water. Blend until smooth:",
+   "items": [
+    "Chiles, garlic, and onion",
+    "1 cup reserved chile water",
+    "2 tsp dried oregano",
+    "2 tsp ground cumin",
+    "Salt and pepper to taste"
+   ]
+  },
+  {
+   "action": "Stir into the meat; cover and simmer until tender, 1½ to 2 hr. Thin with more chile water if desired:",
+   "items": [
+    "Red chile sauce (all above)",
+    "3 cups beef broth",
+    "2 bay leaves"
+   ]
+  },
+  {
+   "text": "Remove the bay leaves before serving."
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Cornbread, crackers, or dinner rolls"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Chile boil time: blog/video say about 15 min, recipe card says about 20 min; card used",
+  "Cumin form not specified; ground assumed",
+  "Seasoning the sauce to taste is from the blog text; the recipe card seasons only the flour",
+  "Scraping the skillet drippings in is from the blog; the card omits it",
+  "Leftover chile water freezes well for future stews and soups; the red sauce also works as enchilada sauce (source tips)"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "title": "Guacamole",
+ "collection": "house",
+ "section": "Casa Crespo (Oaxaca)",
+ "sort": 6,
+ "source": {
+  "text": "Casa Crespo cooking class, Oaxaca"
+ },
+ "makes": "1 cup",
+ "added": "2026-11-15",
+ "origin": "Migrated from Oaxaca Casa Crespo/Guacamole.doc (file dated 2024-03-07)",
+ "tags": {
+  "cuisine": [
+   "Mexican"
+  ],
+  "course": [
+   "Condiment"
+  ],
+  "protein": [
+   "Vegetarian"
+  ],
+  "season": [
+   "Summer"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Grind in a molcajete (or mash in a bowl with a fork):",
+   "items": [
+    "1 garlic clove"
+   ]
+  },
+  {
+   "action": "Add and mash to a thick texture:",
+   "items": [
+    "2 large ripe avocados (390 g), pitted and scooped"
+   ]
+  },
+  {
+   "action": "Mix in:",
+   "items": [
+    "2 Tbsp onion, chopped",
+    "½ tsp chepiche, chopped (or 1 Tbsp cilantro)",
+    "Salt to taste"
+   ]
+  },
+  {
+   "action": "Serve:",
+   "items": [
+    "In the molcajete, with the pits set in to slow browning"
+   ]
+  },
+  {
+   "action": "Options! Add if desired:",
+   "items": [
+    "Tomato, green chile, tomatillo, cucumber, radish",
+    "Peach, pineapple, mango, pomegranate",
+    "Olive oil",
+    "Guaje seeds, chapulines, chicharrón"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

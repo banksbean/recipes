@@ -1,0 +1,102 @@
+{
+ "title": "Timatar Gosht (Beef with Tomatoes)",
+ "collection": "raza",
+ "section": "Beef",
+ "sort": 5,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "6 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "Learned from the author's friend Farrukh Azfar, a physicist and serious cook, during a visit to Oxford, with minor changes. A long braise that's worth the time and better the next day.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beef"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Blend until very smooth; set aside:",
+   "items": [
+    "8 medium flavorful tomatoes (2½ lb / 1.1 kg total), quartered",
+    "2 cu in ginger (2 × 3 × 5 cm), peeled, in about 6 pieces",
+    "8 medium garlic cloves, peeled",
+    "3 Tbsp tomato paste"
+   ]
+  },
+  {
+   "action": "Heat in a large pot over high, 2 min:",
+   "items": [
+    "¾ cup oil (180 ml)"
+   ]
+  },
+  {
+   "action": "Add and fry 1 min:",
+   "items": [
+    "10 green cardamoms",
+    "10 black peppercorns"
+   ]
+  },
+  {
+   "action": "Add and fry, stirring, about 7 min, until well browned and the released water is mostly gone:",
+   "items": [
+    "1¾ lb stewing beef (800 g), chuck or round, in 1 in (2.5 cm) cubes"
+   ]
+  },
+  {
+   "action": "Reduce to medium-high (7/10); add and stir hard 5 min, scraping the bottom:",
+   "items": [
+    "2 tsp cayenne",
+    "1 Tbsp paprika (optional, for color)",
+    "1 Tbsp turmeric",
+    "1 Tbsp ground cumin",
+    "1 Tbsp salt"
+   ]
+  },
+  {
+   "action": "Add and mix; bring to a boil, then cover and simmer on medium-low (3/10) 2 hr, stirring every 20 min:",
+   "items": [
+    "Blended tomato mixture",
+    "If it gets too dry, ½ cup water (120 ml)"
+   ]
+  },
+  {
+   "action": "Test: a piece of meat should cut easily with the side of a fork. If not, simmer 20 min more and repeat.",
+   "items": []
+  },
+  {
+   "action": "Stir in; turn off heat, cover, and rest 5 min:",
+   "items": [
+    "Handful chopped cilantro (optional)"
+   ]
+  },
+  {
+   "action": "Adjust salt.",
+   "items": []
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Any bread or Simple Pulao",
+    "Or Masoor Daal with plain rice or bread"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Source gives the extra water as 4 oz (100 ml); 4 fl oz is 120 ml"
+ ]
+}

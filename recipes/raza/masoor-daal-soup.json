@@ -1,0 +1,57 @@
+{
+ "title": "Masoor Daal Soup (Red Lentil Soup)",
+ "collection": "raza",
+ "section": "Soups",
+ "sort": 26,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "4 servings",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "A quick trick that turns Masoor Daal into a bright, high-protein soup.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Soup & Stew"
+  ],
+  "protein": [
+   "Beans & Lentils",
+   "Vegetarian"
+  ],
+  "season": [
+   "Fall",
+   "Winter"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Cook Masoor Daal (see Daal).",
+   "items": []
+  },
+  {
+   "action": "Remove and reserve the red chilies.",
+   "items": []
+  },
+  {
+   "action": "Blend until very smooth, almost foamy:",
+   "items": [
+    "Cooked daal",
+    "Juice of 2 limes"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Reserved chilies, as garnish or to eat"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": []
+}

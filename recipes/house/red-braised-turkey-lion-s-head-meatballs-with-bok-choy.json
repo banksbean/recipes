@@ -1,0 +1,137 @@
+{
+ "title": "Red-Braised Turkey Lion's Head Meatballs with Bok Choy (红烧狮子头, hóngshāo shīzi tóu)",
+ "collection": "house",
+ "section": "Mains",
+ "sort": 13,
+ "source": {
+  "text": "Ryan's own (developed with Claude)"
+ },
+ "makes": "4 servings (8 large meatballs)",
+ "added": "2026-11-22",
+ "origin": "Created in chat from pantry: bok choy, 1½ lb ground turkey, Chinese sauces and spices",
+ "tags": {
+  "cuisine": [
+   "Chinese"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Poultry"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Stir the meatball mix hard in one direction until tacky, 2 to 3 min:",
+   "items": [
+    "1½ lb ground turkey",
+    "3 scallions, whites minced (greens reserved for garnish)",
+    "1 Tbsp ginger, grated",
+    "2 garlic cloves, grated",
+    "1 egg",
+    "2 Tbsp Shaoxing wine",
+    "1 Tbsp usukuchi soy sauce",
+    "1 tsp fish sauce",
+    "1 Tbsp sesame oil",
+    "½ tsp white pepper",
+    "¼ tsp five spice",
+    "3 Tbsp cornstarch",
+    {
+     "text": "¼ cup cold water",
+     "sub": [
+      "Beat in 1 Tbsp at a time"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Shape 8 balls with wet hands; brown in a Dutch oven over medium-high, 2 min per side, then set aside:",
+   "items": [
+    {
+     "text": "2 Tbsp neutral oil",
+     "sub": [
+      "Meatballs are soft; turn gently"
+     ]
+    }
+   ]
+  },
+  {
+   "action": "Prep the bok choy:",
+   "items": [
+    "1 large head bok choy, stems cut into 2 in pieces, leaves kept separate"
+   ]
+  },
+  {
+   "action": "Fry the aromatics over medium, 30 sec:",
+   "items": [
+    "4 slices ginger",
+    "2 star anise"
+   ]
+  },
+  {
+   "action": "Add the braising liquid, return the meatballs, and simmer covered on low, 20 min:",
+   "items": [
+    "¼ cup Shaoxing wine",
+    "1½ cups chicken stock",
+    "1 Tbsp usukuchi soy sauce",
+    "1 Tbsp Thai black soy sauce",
+    "1 tsp sugar",
+    "Browned meatballs"
+   ]
+  },
+  {
+   "action": "Add the bok choy stems and simmer covered, 5 min:",
+   "items": [
+    "Bok choy stems"
+   ]
+  },
+  {
+   "action": "Add the leaves and cook until wilted and the meatballs reach 165 °F (74 °C), about 2 min:",
+   "items": [
+    "Bok choy leaves"
+   ]
+  },
+  {
+   "action": "Remove the meatballs and greens; thicken the sauce at a simmer, 1 min:",
+   "items": [
+    "1 tsp cornstarch mixed with 1 Tbsp water",
+    "1 tsp black vinegar"
+   ]
+  },
+  {
+   "action": "Spoon the sauce over and garnish:",
+   "items": [
+    "Reserved scallion greens"
+   ]
+  },
+  {
+   "action": "Options! Add if desired:",
+   "items": [
+    "1 Tbsp doubanjiang, fried with the aromatics, for a spicier Sichuan version"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Steamed rice"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "d": "2026-11-22",
+   "kind": "Upload",
+   "text": "Ive got a big head of bok choy and 1.5 lb of ground turkey. Come up with a Chinese inspired recipe. I have all the usual spices, plus these Chinese ones to pick from."
+  }
+ ],
+ "edits": [
+  "Thai black soy (Dek Som Boon) is thick and sweet like molasses, so sugar is only 1 tsp; taste before adding more",
+  "Lean turkey dries out; the beaten-in water, egg, and cornstarch keep it tender. 93/7 is better than 99% lean",
+  "Fish sauce and turkey are departures from the traditional pork version"
+ ]
+}

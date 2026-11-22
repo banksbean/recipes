@@ -1,0 +1,85 @@
+{
+ "title": "Chapli Kabab (Spicy Ground Beef Patties)",
+ "collection": "raza",
+ "section": "Beef",
+ "sort": 6,
+ "source": {
+  "text": "S. Abbas Raza, Pakistani & North Indian Cooking (2015)",
+  "url": "http://www.pakistan-india-cooking.com"
+ },
+ "makes": "12 patties (4 to 6 servings)",
+ "added": "2026-11-15",
+ "origin": "Converted from book PDF upload",
+ "description": "The author's recreation, after many experiments, of the kababs he ate as a teenager in Ghari Habibullah, a village on the way to the Kaghan Valley known for nothing else. Soft butter in the mix stands in for the sheep fat used in northwest Pakistan.",
+ "tags": {
+  "cuisine": [
+   "Pakistani & North Indian"
+  ],
+  "course": [
+   "Main"
+  ],
+  "protein": [
+   "Beef"
+  ],
+  "season": [
+   "Any"
+  ]
+ },
+ "prep_min": null,
+ "cook_min": null,
+ "steps": [
+  {
+   "action": "Knead together thoroughly by hand in a large bowl:",
+   "items": [
+    "1¾ lb ground beef (800 g)",
+    "1 Tbsp crushed red pepper",
+    "1 Tbsp turmeric",
+    "1 Tbsp garam masala",
+    "2 Tbsp coriander seeds",
+    "4 Tbsp dried pomegranate seeds (or 2 Tbsp pomegranate powder)",
+    "3 Tbsp unsalted butter, very soft but not melted, in ⅓ in (1 cm) pieces",
+    "3 tsp salt",
+    "5 medium garlic cloves, very finely chopped (or 1 Tbsp garlic paste)",
+    "2 cu in ginger (2 × 3 × 5 cm), finely chopped (or 2 Tbsp ginger paste)",
+    "2 eggs"
+   ]
+  },
+  {
+   "action": "Fold in gently, just to distribute:",
+   "items": [
+    "1 large onion (12 oz / 340 g), chopped",
+    "1 large firm tomato (8 oz / 225 g), in ⅓ in (1 cm) dice",
+    "6 green chilies (or 2 jalapeños), in thin rings, with seeds",
+    "1 cup loosely packed cilantro, roughly chopped, stems included",
+    "2 Tbsp gram flour (or all-purpose flour)"
+   ]
+  },
+  {
+   "action": "Shape: split into quarters, then 3 patties per quarter, about ½ in (1.5 cm) thick.",
+   "items": []
+  },
+  {
+   "action": "Heat in a large frying pan over high, 2 min:",
+   "items": [
+    "½ cup oil (120 ml)"
+   ]
+  },
+  {
+   "action": "Fry in batches (about 3 at a time) on high, 3 min per side:",
+   "items": [
+    "Nudge patties now and then so they don't stick",
+    "Flip in the order they went in"
+   ]
+  },
+  {
+   "action": "Serve with:",
+   "items": [
+    "Khichri"
+   ]
+  }
+ ],
+ "notes": [],
+ "edits": [
+  "Serving pairing taken from the Khichri headnote (good with kababs)"
+ ]
+}
