@@ -21,7 +21,8 @@ accounts and no backend. The site works offline after the first visit (service w
 | `build.py` | `build` turns the source files into `data/recipes.json`. `import` syncs source files from the Google Drive archive. |
 | `autotag.py` | Starting tags for newly imported recipes. Only used when a source file has no tags yet. |
 | `sw.js` | Service worker: caches the app and data. Network first, cache fallback. |
-| `manifest.webmanifest`, `icon.svg`, `icon-192.png`, `icon-512.png` | Home-screen install. |
+| `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `favicon.png` | Home-screen install and browser icon. |
+| `logo.png` | BeanSalad.org header logo (transparent PNG, 360 px wide). |
 | `robots.txt` | Asks all search engines not to crawl the site. `index.html` also carries `<meta name="robots" content="noindex, nofollow">`. Keep both. |
 | `CNAME`, `.nojekyll` | GitHub Pages custom domain, and no Jekyll processing. |
 
