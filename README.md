@@ -22,6 +22,7 @@ accounts and no backend. The site works offline after the first visit (service w
 | `autotag.py` | Starting tags for newly imported recipes. Only used when a source file has no tags yet. |
 | `sw.js` | Service worker: caches the app and data. Network first, cache fallback. |
 | `manifest.webmanifest`, `icon.svg`, `icon-192.png`, `icon-512.png` | Home-screen install. |
+| `robots.txt` | Asks all search engines not to crawl the site. `index.html` also carries `<meta name="robots" content="noindex, nofollow">`. Keep both. |
 | `CNAME`, `.nojekyll` | GitHub Pages custom domain, and no Jekyll processing. |
 
 ## Source file format
@@ -119,4 +120,5 @@ custom domain `recipes.beansalad.org`, then "Enforce HTTPS" once the certificate
 - No recipe has prep or cook times yet; `prep_min` and `cook_min` are null and the site hides them until set.
 - 37 recipes have no `makes`, so they scale by multiplier only. 4 bean recipes have no source.
 - Not yet in any archive, so not on the site: Buried Chicken, Xianglajiang (Google Docs), Pesto Ratios, Space Sludge (Sheets).
+- The site is public but kept out of search engines (robots.txt plus noindex). The repo itself is public on github.com and can still show up in search.
 - The site is public. The Raza recipes are a conversion of a copyrighted book, published at Ryan's direction.
