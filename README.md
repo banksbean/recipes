@@ -5,7 +5,8 @@ North Indian dishes from S. Abbas Raza's book, beans, and bean cooking guides. S
 https://recipes.beansalad.org.
 
 Features: search across titles, ingredients and notes; tag filters (cuisine, course, protein, season) and collection
-chips; a recipe view with a servings scaler, an As written / US / Metric unit toggle, cook mode (keeps the screen
+chips; a recipe view with a servings scaler, a collapsed "Ingredients List" button (closed by default, since the
+ingredients already live in the steps), an As written / US / Metric unit toggle, cook mode (keeps the screen
 awake where the browser allows it), step checkboxes, tap-to-start step timers, and a clean print layout. Favorites,
 the "made it" log, personal notes and step checks live only in each visitor's browser (localStorage). There are no
 accounts and no backend. The site works offline after the first visit (service worker).
@@ -25,6 +26,13 @@ accounts and no backend. The site works offline after the first visit (service w
 | `logo.png` | BeanSalad.org header logo (transparent PNG, 360 px wide). |
 | `robots.txt` | Asks all search engines not to crawl the site. `index.html` also carries `<meta name="robots" content="noindex, nofollow">`. Keep both. |
 | `CNAME`, `.nojekyll` | GitHub Pages custom domain, and no Jekyll processing. |
+
+## This repo is the only website
+
+This repo is the one and only recipe website. The Drive folder `Hobbies/Food` holds the archive (data.js files and the
+.docx files built from them) but no website: the old self-contained page builder there (`build_site.js`,
+`site_template.html`, `Recipe Site/`) was retired on 2026-11-24 and moved to `_recipes_source/_retired_local_site/`.
+Never upload an HTML file from Drive to this repo. Site changes are made here, in `index.html`.
 
 ## Source file format
 
@@ -120,6 +128,6 @@ custom domain `recipes.beansalad.org`, then "Enforce HTTPS" once the certificate
 - Tags were assigned by Claude at import (`autotag.py` plus manual overrides), not by Ryan. Edit them in the source files.
 - No recipe has prep or cook times yet; `prep_min` and `cook_min` are null and the site hides them until set.
 - 37 recipes have no `makes`, so they scale by multiplier only. 4 bean recipes have no source.
-- Not yet in any archive, so not on the site: Buried Chicken, Xianglajiang (Google Docs), Pesto Ratios, Space Sludge (Sheets).
+- Not yet in any archive, so not on the site: Xianglajiang (Google Doc), Pesto Ratios, Space Sludge (Sheets).
 - The site is public but kept out of search engines (robots.txt plus noindex). The repo itself is public on github.com and can still show up in search.
 - The site is public. The Raza recipes are a conversion of a copyrighted book, published at Ryan's direction.

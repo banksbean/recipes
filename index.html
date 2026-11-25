@@ -81,6 +81,12 @@ body.reading #quick,body.reading #filters{display:none!important}
 .tbtn[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
 @media (prefers-color-scheme:dark){.tbtn[aria-pressed=true]{color:#10200c}}
 .rv h2{font:600 19px var(--serif);margin:22px 0 8px;color:var(--brown)}
+.ingc{margin:4px 0 6px}
+.ingc summary{display:inline-block;cursor:pointer;list-style:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;font-size:15px;color:var(--ink)}
+.ingc summary::-webkit-details-marker{display:none}
+.ingc summary::before{content:"▸ ";color:var(--acc)}
+.ingc[open] summary::before{content:"▾ "}
+.ingc .ing{margin-top:10px;max-width:520px}
 .ing{list-style:none;padding:0;margin:0}
 .ing li{padding:6px 0;border-bottom:1px solid var(--line);display:flex;gap:8px}
 .ing .q{font-weight:600;white-space:nowrap;min-width:72px;font-variant-numeric:tabular-nums}
@@ -119,8 +125,6 @@ body.cook .step .act{font-size:20px}
 body.cook .step input[type=checkbox]{width:28px;height:28px}
 footer{color:var(--mute);font-size:13px;padding:20px 0 40px;text-align:center}
 @media (min-width:720px){
-  .rv .cols{display:grid;grid-template-columns:minmax(240px,1fr) 2fr;gap:28px;align-items:start}
-  .rv .cols .ingc{position:sticky;top:70px}
   .card .t{font-size:18px}
 }
 @media print{
@@ -169,6 +173,8 @@ const norm = s => String(s || "").toLowerCase().normalize("NFKD").replace(/[̀-�
 const TAGS = ["cuisine", "course", "protein", "season"];
 const TAG_LABEL = {cuisine:"Cuisine", course:"Course", protein:"Protein", season:"Season"};
 let DB = null, BYID = {};
+let ingOpen = false; /* Ingredients List starts collapsed; stays open across re-renders once opened */
+document.addEventListener("toggle", e => { if (e.target.classList && e.target.classList.contains("ingc")) ingOpen = e.target.open; }, true);
 const state = {q: "", col: null, tags: {cuisine:new Set(), course:new Set(), protein:new Set(), season:new Set()}, fav: false, made: false, open: false};
 
 /* ---------- quantities ---------- */
@@ -375,7 +381,7 @@ function renderRecipe(id) {
       <button class="tbtn" id="print">Print</button>
     </div>`}
     <div class="cols">
-      ${x.ingredients.length && !isGuide ? `<section class="ingc"><h2>Ingredients</h2><ul class="ing">${ingList(x, f, sys)}</ul></section>` : "<div></div>"}
+      ${x.ingredients.length && !isGuide ? `<details class="ingc"${ingOpen ? " open" : ""}><summary>Ingredients List</summary><ul class="ing">${ingList(x, f, sys)}</ul></details>` : ""}
       <section><h2>${isGuide ? "Guide" : "Steps"}</h2><ol class="steps">${steps}</ol>
         ${notes || eds ? `<section class="notes"><h2>Notes</h2>${notes}${eds}</section>` : ""}
       </section>
