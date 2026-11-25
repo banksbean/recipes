@@ -301,7 +301,8 @@ function renderList() {
       <div class="marks">${S.fav[x.id] ? '<span class="fav" title="Favorite">♥</span>' : ""}${made ? `<span title="Made ${made} times">✓${made > 1 ? made : ""}</span>` : ""}</div></a></li>`;
   }
   html += "</ul>";
-  html += `<footer>${DB.count} recipes · built ${esc(DB.built)} · favorites and notes stay on this device</footer>`;
+  html += `<footer>${DB.count} recipes · built ${esc(DB.built)} · favorites and notes stay on this device<br>
+    Word archive: <a href="exports/All%20Recipes.docx">All Recipes</a> · <a href="exports/Pakistani%20%26%20North%20Indian%20Cooking%20(Raza).docx">Pakistani &amp; North Indian</a> · <a href="exports/Bean%20Recipes%20v2.docx">Bean Recipes v2</a></footer>`;
   $("#app").innerHTML = html;
 }
 

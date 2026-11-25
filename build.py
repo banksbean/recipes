@@ -236,6 +236,22 @@ def cmd_build(args):
     print(f"  ingredient lines: {sum(len(r['ingredients']) for r in recipes)} ({unparsed} without a quantity)")
     if args.expect is not None and n_rec != args.expect:
         sys.exit(f"Expected {args.expect} recipes, got {n_rec}")
+    if not getattr(args, "no_export", False):
+        import subprocess
+        r = subprocess.run(["node", os.path.join(ROOT, "export.js")], cwd=ROOT)
+        if r.returncode:
+            sys.exit("Word export failed (export.js). The site data was written; fix the export or rerun with --no-export.")
+        # Drop ZIP folder entries: Word can refuse such files when opened through cloud co-editing.
+        import zipfile, io
+        for fn in glob.glob(os.path.join(ROOT, "exports", "*.docx")):
+            zin = zipfile.ZipFile(fn)
+            buf = io.BytesIO()
+            with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zout:
+                for info in zin.infolist():
+                    if not info.filename.endswith("/"):
+                        zout.writestr(info, zin.read(info.filename))
+            zin.close()
+            open(fn, "wb").write(buf.getvalue())
 
 
 # ---------------------------------------------------------------- import from the Drive archive
@@ -335,17 +351,24 @@ def main():
     sub = ap.add_subparsers(dest="cmd")
     b = sub.add_parser("build")
     b.add_argument("--expect", type=int)
+    b.add_argument("--no-export", action="store_true", help="skip the Word exports in exports/")
     i = sub.add_parser("import")
     i.add_argument("--house")
     i.add_argument("--raza")
     i.add_argument("--beans")
+    i.add_argument("--force", action="store_true")
     a = ap.parse_args()
     if a.cmd == "import":
+        if not a.force:
+            sys.exit("import is retired: since 2026-11-25 the repo is the master copy, and import overwrites repo edits\n"
+                     "with the old Drive archive. Add or edit recipes in recipes/<collection>/<id>.json instead.\n"
+                     "Rerun with --force only for a deliberate one-off migration.")
         sys.path.insert(0, ROOT)
         cmd_import(a)
     else:
         if a.cmd is None:
             a.expect = None
+            a.no_export = False
         cmd_build(a)
 
 
