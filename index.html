@@ -34,7 +34,7 @@ header.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1
 .search input{width:100%;padding:10px 12px 10px 36px;border:1px solid var(--line);border-radius:999px;background:var(--card);outline:none;font-size:16px}
 .search input:focus{border-color:var(--orange);box-shadow:0 0 0 3px color-mix(in srgb,var(--orange) 22%,transparent)}
 .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.5}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:0 0 10px;scrollbar-width:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 0 10px}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px;font-size:14px;white-space:nowrap}
 .chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
