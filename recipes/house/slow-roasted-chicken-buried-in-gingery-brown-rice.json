@@ -27,7 +27,7 @@
  "cook_min": null,
  "steps": [
   {
-   "action": "Soak 2 to 24 hr (refrigerate if longer than 2 hr):",
+   "action": "Soak at least 2 hr and up to 24 hr; refrigerate if soaking overnight:",
    "items": [
     "2 cups long-grain brown rice (400 g), covered by 2 in cool water"
    ]
@@ -85,11 +85,10 @@
    ]
   },
   {
-   "action": "Assemble in a Dutch oven that fits the chicken snugly:",
+   "action": "Assemble in a Dutch oven that fits the chicken snugly: a ½ in layer of rice on the bottom, the chicken on top, the rest of the rice packed around the sides. Wipe stray grains off the skin:",
    "items": [
-    "Rice mixture, a ½ in layer on the bottom",
-    "Chicken on top; pack the rest of the rice around the sides",
-    "Wipe stray grains off the skin"
+    "All rice mixture",
+    "Seasoned chicken"
    ]
   },
   {
@@ -99,15 +98,9 @@
    ]
   },
   {
-   "action": "Uncover, butter the chicken, and roast 30 to 45 min more, until the liquid is absorbed and the rice is tender:",
+   "action": "Uncover, spread butter over the breast and exposed skin, and roast 30 to 45 min more, until the liquid is absorbed and the rice is tender (breast at least 165 °F / 74 °C, thigh at least 175 °F / 80 °C; it will be very done):",
    "items": [
-    "2 Tbsp unsalted butter, over the breast and exposed skin",
-    {
-     "text": "Breast at least 165 °F (74 °C), thigh at least 175 °F (80 °C)",
-     "sub": [
-      "It will be very done and falling off the bone"
-     ]
-    }
+    "2 Tbsp unsalted butter"
    ]
   },
   {
