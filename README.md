@@ -4,7 +4,8 @@ Ryan's recipe collection as a static, phone-first website: house recipes (Mexica
 North Indian dishes from S. Abbas Raza's book, beans, and bean cooking guides. Served by GitHub Pages at
 https://recipes.beansalad.org.
 
-Features: search across titles, ingredients and notes; tag filters (cuisine, course, protein, season) and collection
+Features: the unfiltered home page lists recipes newest first, grouped by date added (recipes with no `added` date
+come last); search across titles, ingredients and notes; tag filters (cuisine, course, protein, season) and collection
 chips; a recipe view with a servings scaler, a collapsed "Ingredients List" button (closed by default, since the
 ingredients already live in the steps), an As written / US / Metric unit toggle, cook mode (keeps the screen
 awake where the browser allows it), step checkboxes, tap-to-start step timers, and a clean print layout. Favorites,

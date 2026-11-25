@@ -273,22 +273,30 @@ function renderChips() {
   $("#filters").innerHTML = groups + `<div class="fgroup"><h4>Mine</h4><div class="chips"><button class="chip" data-made aria-pressed="${state.made}">Made it</button></div></div>`;
   $("#filters").classList.toggle("open", state.open);
 }
+function fmtDate(d) {
+  const [y, m, day] = d.split("-").map(Number);
+  return new Date(y, m - 1, day).toLocaleDateString(undefined, {month: "short", day: "numeric", year: "numeric"});
+}
 function renderList() {
   document.body.classList.remove("cook", "reading"); releaseWake();
   document.title = "BeanSalad.org Recipes";
-  const hits = DB.recipes.filter(matches);
+  let hits = DB.recipes.filter(matches);
+  // Unfiltered home view: newest first, grouped by date added (undated recipes last, in archive order)
+  const byDate = !state.q && !state.col && !activeFilters();
+  if (byDate) hits = hits.map((r, i) => [r, i]).sort((a, b) => (b[0].added || "").localeCompare(a[0].added || "") || a[1] - b[1]).map(p => p[0]);
   const nRec = hits.filter(r => r.collection !== "guides").length, nG = hits.length - nRec;
   let html = `<div class="count"><span>${nRec} recipe${nRec === 1 ? "" : "s"}${nG ? ` · ${nG} guide${nG === 1 ? "" : "s"}` : ""}</span>${(activeFilters() || state.col || state.q) ? '<button class="linkbtn" id="clear">Clear all</button>' : ""}</div>`;
   if (!hits.length) html += `<p class="empty">Nothing matches. Try fewer words or filters.</p>`;
   let last = "";
   html += '<ul class="list">';
   for (const x of hits) {
-    const head = (DB.collections.find(c => c.id === x.collection) || {}).name + (x.section ? " · " + x.section : "");
+    const colName = (DB.collections.find(c => c.id === x.collection) || {}).name;
+    const head = byDate ? (x.added ? "Added " + fmtDate(x.added) : "Earlier") : colName + (x.section ? " · " + x.section : "");
     if (head !== last && !state.q) { html += `<li class="sec">${esc(head)}</li>`; last = head; }
     const made = (S.made[x.id] || []).length;
     const tags = [...x.tags.cuisine, ...x.tags.course, ...x.tags.protein].slice(0, 4);
     html += `<li><a class="card" href="#/r/${x.id}"><div class="main"><div class="t">${esc(x.title)}</div>
-      <div class="s">${esc([x.source && x.source.text, x.makes && x.makes.text].filter(Boolean).join(" · ") || head)}</div>
+      <div class="s">${esc([byDate ? colName : null, x.source && x.source.text, x.makes && x.makes.text].filter(Boolean).join(" · ") || head)}</div>
       ${tags.length ? `<div class="tags">${tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</div>
       <div class="marks">${S.fav[x.id] ? '<span class="fav" title="Favorite">♥</span>' : ""}${made ? `<span title="Made ${made} times">✓${made > 1 ? made : ""}</span>` : ""}</div></a></li>`;
   }
